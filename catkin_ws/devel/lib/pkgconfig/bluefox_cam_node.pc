@@ -1,0 +1,8 @@
+prefix=/home/josh/uni/project/bluefox_cam_node/catkin_ws/devel
+
+Name: bluefox_cam_node
+Description: Description of bluefox_cam_node
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/josh/uni/project/bluefox_cam_node/catkin_ws/devel/lib 
+Requires: 

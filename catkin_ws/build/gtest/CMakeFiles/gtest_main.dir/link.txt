@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC    -shared -Wl,-soname,libgtest_main.so -o libgtest_main.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -L/home/josh/uni/project/bluefox_cam_node/catkin_ws/build/gtest/src -lpthread libgtest.so -lpthread -Wl,-rpath,/home/josh/uni/project/bluefox_cam_node/catkin_ws/build/gtest/src:/home/josh/uni/project/bluefox_cam_node/catkin_ws/build/gtest 

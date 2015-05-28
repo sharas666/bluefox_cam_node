@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "bluefox_cam_node")
+set(bluefox_cam_node_MAINTAINER "josh <josh@todo.todo>")
+set(bluefox_cam_node_DEPRECATED "")
+set(bluefox_cam_node_VERSION "0.0.0")
+set(bluefox_cam_node_BUILD_DEPENDS "roscpp" "std_msgs")
+set(bluefox_cam_node_RUN_DEPENDS "roscpp" "std_msgs")
+set(bluefox_cam_node_BUILDTOOL_DEPENDS "catkin")

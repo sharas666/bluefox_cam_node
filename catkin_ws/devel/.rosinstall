@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/josh/uni/project/bluefox_cam_node/catkin_ws/devel/setup.sh
