@@ -1,0 +1,437 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"de",
+				"description"
+			],
+			[
+				"valu",
+				"value-of"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"mv",
+				"mvStereoVision	(CMakeLists.txt)"
+			],
+			[
+				"bl",
+				"bluefox_cam_node"
+			],
+			[
+				"c",
+				"camera"
+			],
+			[
+				"inc",
+				"inc	#include \"…\""
+			],
+			[
+				"s",
+				"sequence"
+			],
+			[
+				"x",
+				"xs"
+			],
+			[
+				"b",
+				"bookTitle"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"e",
+				"exit〔function〕"
+			],
+			[
+				"str",
+				"strList〔variable〕"
+			],
+			[
+				"alig",
+				"vertical-align"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"re",
+				"read_input〔function〕"
+			],
+			[
+				"bi",
+				"bitsIn〔variable〕"
+			],
+			[
+				"r",
+				"read_input"
+			],
+			[
+				"in",
+				"int〔class〕"
+			],
+			[
+				"time",
+				"time"
+			],
+			[
+				"f",
+				"for"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"i",
+				"inputs"
+			],
+			[
+				"bin",
+				"binList"
+			],
+			[
+				"He",
+				"hexList"
+			],
+			[
+				"int",
+				"intList"
+			],
+			[
+				"In",
+				"intList"
+			],
+			[
+				"hex",
+				"hexList"
+			],
+			[
+				"he",
+				"hexList"
+			],
+			[
+				"tag",
+				"tagStr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "package",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git pul",
+				"Git: Pull"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"key",
+				"Preferences: SublimeLinter Key Bindings – Default"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/josh/uni/project/bluefox_cam_node/bluefox_node.sublime-workspace",
+		"/home/josh/uni/webtech/u4/atom-xslt-feedviewer-scaffold/src/main/static/styles/atom2rss.xsl",
+		"/home/josh/uni/webtech/u4/atom-xslt-feedviewer-scaffold/src/main/static/styles/atom2html.xsl",
+		"/home/josh/uni/webtech/u4/atom-xslt-feedviewer-scaffold/src/main/static/webtec.atom.xml",
+		"/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/src/mvStereoVision/configs/default.yml",
+		"/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/CMakeLists.txt",
+		"/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/src/bluefox_cam_node.cpp",
+		"/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/src/mvStereoVision/example/images.cpp",
+		"/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/src/mvStereoVision/example/disparity.cpp",
+		"/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/src/mvStereoVision/trgt/capture.cpp",
+		"/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/src/mvStereoVision/Makefile",
+		"/home/josh/uni/project/SVO/catkin_ws/src/bluefox2/cmake/FindmvIMPACT.cmake",
+		"/home/josh/uni/project/SVO/catkin_ws/src/bluefox2/CMakeLists.txt",
+		"/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/src/mvStereoVision/inc/utility.h",
+		"/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/src/mvStereoVision/inc/Camera.h",
+		"/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/src/mvStereoVision/src/Camera.cpp",
+		"/opt/mvIMPACT_acquire/mvPropHandling/Include/mvPropHandlingDatatypes.h",
+		"/home/josh/uni/project/SVO/catkin_ws/src/bluefox2/package.xml",
+		"/home/josh/uni/project/bluefox_cam_node/catkin_ws/build/bluefox_cam_node/Makefile",
+		"/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/bluefox_cam_node/utility.h",
+		"/home/josh/.config/sublime-text-3/Packages/User/catkin.sublime-build",
+		"/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/bluefox_cam_node/Camera.h",
+		"/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/src/bluefox_cam_node_node.cpp",
+		"/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/src/camera_node.cpp",
+		"/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/package.xml",
+		"/home/josh/uni/project/SVO/catkin_ws/src/bosch_drivers/usb_cam/nodes/usb_cam_node.cpp",
+		"/home/josh/own_projects/table/table.py",
+		"/home/josh/s",
+		"/home/josh/d",
+		"/home/josh/f",
+		"/home/josh/g",
+		"/home/josh/h",
+		"/home/josh/j",
+		"/home/josh/k",
+		"/home/josh/l",
+		"/home/josh/a",
+		"/home/josh/.bashrc",
+		"/home/josh/uni/project/SVO/catkin_ws/src/camera_base/launch/extras.launch",
+		"/etc/bash.bashrc",
+		"/usr/share/doc/adduser/examples/adduser.local.conf.examples/bash.bashrc",
+		"/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel/dot.bashrc",
+		"/usr/share/base-files/dot.bashrc",
+		"/home/josh/uni/webtech/u3/a5.xml",
+		"/home/josh/uni/webtech/u3/a5.xsd",
+		"/home/josh/uni/webtech/u3/a1.xml",
+		"/home/josh/uni/webtech/u3/a2.xml",
+		"/home/josh/uni/project/SVO/usb_cam-test.launch",
+		"/home/josh/uni/webtech/u3/feed.xml",
+		"/home/josh/uni/webtech/u3/webtec.atom.xsd",
+		"/home/josh/uni/project/cam/catkin_ws/src/gscam/examples/v4l.launch",
+		"/home/josh/bin/ROSfromScratch",
+		"/home/josh/u3/a3.cpp",
+		"/home/josh/uni/webtech/u3/a1.dtd",
+		"/home/josh/uni/webtech/u3/a2.dtd",
+		"/home/josh/uni/project/SVO/usb-cam-test.launch",
+		"/home/josh/uni/project/SVO/catkin_ws/src/CMakeLists.txt",
+		"/home/josh/uni/krypto/u2/box.txt",
+		"/home/josh/uni/krypto/u2/sbox.py",
+		"/home/josh/uni/krypto/table/table.py",
+		"/home/josh/uni/webtech/webtech/src/main/static/styles/style.css",
+		"/home/josh/uni/webtech/webtech/src/main/static/index.html",
+		"/home/josh/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/josh/uni/webtech/webtech/gradle/wrapper/gradle-wrapper.properties",
+		"/home/josh/uni/webtech/bla.html",
+		"/home/josh/.config/sublime-text-3/Packages/SublimeLinter/Default (Linux).sublime-keymap",
+		"/home/josh/krypto/u2/box2.txt",
+		"/home/josh/krypto/u2/sbox.py",
+		"/home/josh/krypto/u2/box.txt",
+		"/home/josh/krypto/u2/mat.txt",
+		"/home/josh/krypto/u2/bla2.html",
+		"/home/josh/script",
+		"/home/josh/subl.sh",
+		"/home/josh/table/table.py",
+		"/home/josh/Schreibtisch/untitled"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bluefox_node",
+			"include_dire",
+			"a:",
+			"footer",
+			"div class=\"footer\"",
+			".time",
+			"div class=\"time\"",
+			".time",
+			"div class=\"time\"",
+			"div class=time",
+			"#navigation",
+			"for",
+			"r",
+			"for",
+			"Counter(\nprint ",
+			" ",
+			"matrix",
+			"print"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.317063797079,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 148.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 142.0
+	},
+	"pinned_build_system": "Packages/User/catkin.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 249.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

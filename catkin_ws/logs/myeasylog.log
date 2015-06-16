@@ -1,0 +1,3477 @@
+2015-06-04 12:07:33,131 INFO  [default] MAIN	Application started.
+2015-06-04 12:07:33,149 ERROR [default] UTILITY	Invalid numver of cameras detected! Number of detected cameras: 0
+
+2015-06-05 12:44:15,882 ERROR [default] UTILITY	Invalid numver of cameras detected! Number of detected cameras: 0
+
+2015-06-05 12:58:37,550 ERROR [default] UTILITY	Invalid numver of cameras detected! Number of detected cameras: 0
+
+2015-06-05 12:59:56,787 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-05 12:59:58,909 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-05 12:59:58,909 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-05 12:59:58,910 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-05 12:59:58,910 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-05 13:00:01,151 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-05 13:00:01,151 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-05 13:00:01,151 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-05 13:00:01,151 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-05 13:00:01,280 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-05 13:00:01,280 ERROR [default] UTILITY	Node inputParameter in ./configs/default.yml is empty.
+
+2015-06-05 13:00:01,280 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-05 13:00:46,385 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-05 13:00:48,499 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-05 13:00:48,499 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-05 13:00:48,499 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-05 13:00:48,499 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-05 13:00:50,818 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-05 13:00:50,819 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-05 13:00:50,819 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-05 13:00:50,819 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-05 13:00:50,948 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-05 13:00:50,948 ERROR [default] UTILITY	Node inputParameter in ./configs/default.yml is empty.
+
+2015-06-05 13:00:50,951 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-05 13:02:20,281 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-05 13:02:22,392 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-05 13:02:22,392 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-05 13:02:22,392 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-05 13:02:22,392 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-05 13:02:24,685 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-05 13:02:24,685 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-05 13:02:24,685 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-05 13:02:24,685 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-05 13:02:24,809 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-05 13:02:24,809 ERROR [default] UTILITY	Node inputParameter in ./configs/default.yml is empty.
+
+2015-06-05 13:02:24,809 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-10 13:05:31,105 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-10 13:05:33,198 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-10 13:05:33,198 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-10 13:05:33,198 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-10 13:05:33,198 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-10 13:05:35,437 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-10 13:05:35,437 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-10 13:05:35,437 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-10 13:05:35,437 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-10 13:05:35,560 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-10 13:05:35,572 ERROR [default] UTILITY	Node inputParameter in ./configs/default.yml is empty.
+
+2015-06-10 13:05:35,572 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-10 13:08:41,322 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-10 13:08:43,417 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-10 13:08:43,417 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-10 13:08:43,418 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-10 13:08:43,418 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-10 13:08:45,664 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-10 13:08:45,664 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-10 13:08:45,665 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-10 13:08:45,665 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-10 13:08:45,793 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-10 13:08:45,865 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-10 13:08:45,865 ERROR [default] STEREOSYSTEM	Node in ./mvStereoVision/newCalibration/intrinsic.ymlis empty.
+
+2015-06-10 13:08:45,866 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-10 13:11:45,578 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-10 13:11:47,677 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-10 13:11:47,677 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-10 13:11:47,677 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-10 13:11:47,677 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-10 13:11:49,983 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-10 13:11:49,983 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-10 13:11:49,983 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-10 13:11:49,983 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-10 13:11:50,107 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-10 13:11:50,131 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-10 13:11:50,135 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-10 13:11:50,135 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-10 13:11:50,135 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-10 13:11:50,135 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-10 13:11:50,309 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-10 13:11:50,309 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-10 13:11:50,331 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-10 13:30:12,973 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:30:12,973 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:30:12,973 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:30:12,973 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-10 13:30:27,866 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-10 13:30:29,964 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-10 13:30:29,964 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-10 13:30:29,964 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-10 13:30:29,964 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-10 13:30:32,263 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-10 13:30:32,263 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-10 13:30:32,263 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-10 13:30:32,264 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-10 13:30:32,389 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-10 13:30:32,412 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-10 13:30:32,414 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-10 13:30:32,415 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-10 13:30:32,415 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-10 13:30:32,415 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-10 13:30:32,584 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-10 13:30:32,584 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-10 13:30:32,603 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-10 13:32:21,454 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:32:21,454 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:32:21,454 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:32:21,455 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-10 13:33:00,397 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-10 13:33:02,492 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-10 13:33:02,492 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-10 13:33:02,492 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-10 13:33:02,492 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-10 13:33:04,741 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-10 13:33:04,742 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-10 13:33:04,742 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-10 13:33:04,742 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-10 13:33:04,866 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-10 13:33:04,889 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-10 13:33:04,889 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-10 13:33:04,889 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-10 13:33:04,889 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-10 13:33:04,889 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-10 13:33:05,093 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-10 13:33:05,094 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-10 13:33:05,111 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-10 13:35:06,778 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-10 13:35:08,889 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-10 13:35:08,889 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-10 13:35:08,890 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-10 13:35:08,890 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-10 13:35:11,193 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-10 13:35:11,193 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-10 13:35:11,193 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-10 13:35:11,193 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-10 13:35:11,317 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-10 13:35:11,340 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-10 13:35:11,340 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-10 13:35:11,340 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-10 13:35:11,340 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-10 13:35:11,341 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-10 13:35:11,517 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-10 13:35:11,517 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-10 13:35:11,534 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-10 13:35:11,590 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:11,590 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:11,590 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:11,731 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:11,731 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:11,732 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:11,870 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:11,870 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:11,870 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:12,016 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:12,016 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:12,016 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:12,160 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:12,161 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:12,161 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:12,303 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:12,303 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:12,303 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:12,447 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:12,448 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:12,448 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:12,592 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:12,592 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:12,592 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:12,736 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:12,737 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:12,737 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:12,881 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:12,881 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:12,881 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:13,029 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:13,029 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:13,029 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:13,170 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:13,171 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:13,171 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:13,316 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:13,316 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:13,316 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:13,461 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:13,461 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:13,461 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:13,603 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:13,604 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:13,604 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:13,752 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:13,752 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:13,753 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:13,892 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:13,893 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:13,893 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:14,035 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:14,035 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:14,035 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:14,179 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:14,180 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:14,180 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:14,324 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:14,324 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:14,324 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:14,468 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:14,469 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:14,469 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:14,613 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:14,613 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:14,613 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:14,763 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:14,763 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:14,763 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:14,902 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:14,902 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:14,902 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:15,046 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:15,046 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:15,046 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:15,192 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:15,193 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:15,193 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:15,334 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:15,335 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:15,335 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:15,479 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:15,479 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:15,479 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:15,627 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:15,627 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:15,627 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:15,766 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:15,766 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:15,766 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:15,911 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:15,911 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:15,911 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:16,056 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:16,056 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:16,057 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:16,200 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:16,201 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:16,201 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:16,347 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:16,347 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:16,347 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:16,490 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:16,490 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:16,490 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:16,639 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:16,639 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:16,640 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:16,777 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:16,777 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:16,777 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:16,922 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:16,922 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:16,922 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:17,066 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:17,067 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:17,067 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:17,211 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:17,211 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:17,211 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:17,354 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:17,355 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:17,355 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:17,499 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:17,499 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:17,499 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:17,693 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:17,693 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:17,693 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:17,836 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:17,837 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:17,837 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:17,981 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:17,981 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:17,981 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:18,125 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:18,126 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:18,126 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:18,269 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:18,269 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:18,269 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:18,443 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:18,443 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:18,443 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:18,582 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:18,582 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:18,582 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:18,726 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:18,726 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:18,726 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:18,871 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:18,871 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:18,871 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:19,035 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:19,035 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:19,036 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:19,184 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:19,184 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:19,185 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:19,330 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:19,330 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:19,330 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:19,473 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:19,473 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:19,474 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:19,617 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:19,617 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:19,617 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:19,761 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:19,761 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:19,761 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:19,914 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:19,914 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:19,914 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:20,052 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:20,052 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:20,052 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:20,194 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:20,194 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:20,194 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:20,339 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:20,339 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:20,339 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:20,483 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:20,483 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:20,483 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:20,627 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:20,628 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:20,628 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:20,772 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:20,772 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:20,772 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:20,940 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:20,940 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:20,940 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:21,084 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:21,084 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:21,084 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:21,228 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:21,228 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:21,228 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:21,377 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:21,378 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:21,378 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:21,517 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:21,517 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:21,517 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:21,667 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:21,667 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:21,667 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:21,806 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:21,807 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:21,807 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:21,952 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:21,953 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:21,953 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:22,096 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:22,096 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:22,096 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:22,240 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:22,240 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:22,240 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:22,383 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:22,383 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:22,383 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:22,528 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:22,529 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:22,529 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:22,671 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:22,672 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:22,672 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:22,816 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:22,816 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:22,816 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:22,962 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:22,962 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:22,962 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:23,105 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:23,105 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:23,105 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:23,249 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:23,249 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:23,250 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:23,395 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:23,396 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:23,396 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:23,538 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:23,538 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:23,538 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:23,702 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:23,702 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:23,702 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:23,851 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:23,851 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:23,851 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:23,996 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:23,996 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:23,996 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:24,140 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:24,140 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:24,140 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:24,283 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:24,284 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:24,284 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:24,428 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:24,428 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:24,428 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:24,575 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:24,576 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:24,576 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:24,717 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:24,718 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:24,718 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:24,861 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:24,861 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:24,861 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:25,005 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:25,005 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:25,005 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:25,150 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:25,150 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:25,150 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:25,293 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:25,294 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:25,294 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:25,442 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:25,442 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:25,442 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:25,583 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:25,583 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:25,583 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:25,726 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:25,727 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:25,727 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:25,871 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:25,872 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:25,872 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:26,018 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:26,018 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:26,018 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:26,161 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:26,161 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:26,161 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:26,305 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:26,305 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:26,305 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:26,454 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:26,454 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:26,454 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:26,593 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:26,593 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:26,593 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:26,737 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:26,738 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:26,738 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:26,882 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:26,882 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:26,882 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:27,026 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:27,027 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:27,027 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:27,171 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:27,171 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:27,171 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:27,319 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:27,320 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:27,320 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:27,459 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:27,459 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:27,459 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:27,604 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:27,604 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:27,604 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:27,747 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:27,747 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:27,747 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:27,892 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:27,892 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:27,892 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:28,037 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:28,037 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:28,037 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:28,205 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:28,205 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:28,205 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:28,351 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:28,351 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:28,351 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:28,493 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:28,493 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:28,494 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:28,638 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:28,638 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:28,638 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:28,783 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:28,783 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:28,784 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:28,927 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:28,927 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:28,927 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:29,071 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:29,071 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:29,071 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:29,217 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:29,218 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:29,218 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:29,360 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:29,360 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:29,360 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:29,505 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:29,505 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:29,505 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:29,649 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:29,650 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:29,650 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:29,793 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:29,793 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:29,793 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:29,937 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:29,937 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:29,937 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:30,082 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:30,082 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:30,082 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:30,226 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:30,226 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:30,226 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:30,371 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:30,371 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:30,371 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:30,515 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:30,515 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:30,515 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:30,663 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:30,663 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:30,663 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:30,804 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:30,804 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:30,804 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:30,947 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:30,947 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:30,947 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:31,096 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:31,096 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:31,096 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:31,237 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:31,237 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:31,237 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:31,405 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:31,405 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:31,405 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:31,549 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:31,549 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:31,549 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:31,694 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:31,694 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:31,694 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:31,838 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:31,838 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:31,838 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:31,983 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:31,983 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:31,983 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:32,130 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:32,130 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:32,130 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:32,275 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:32,276 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:32,276 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:32,414 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:32,414 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:32,414 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:32,566 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:32,566 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:32,566 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:32,704 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:32,704 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:32,704 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:32,850 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:32,851 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:32,851 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:32,993 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:32,993 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:32,993 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:33,141 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:33,142 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:33,142 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:33,281 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:33,282 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:33,282 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:33,426 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:33,426 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:33,426 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:33,575 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:33,575 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:33,575 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:33,715 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:33,715 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:33,715 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:33,859 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:33,859 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:33,859 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:34,009 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:34,009 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:34,009 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:34,148 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:34,148 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:34,148 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:34,295 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:34,295 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:34,295 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:34,436 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:34,436 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:34,436 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:34,609 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:34,609 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:34,609 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:34,753 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:34,754 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:34,754 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:34,897 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:34,897 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:34,897 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:35,042 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:35,042 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:35,042 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:35,182 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:35,182 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:35,182 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:35,325 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:35,326 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:35,326 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:35,475 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:35,475 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:35,475 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:35,614 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:35,614 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:35,614 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:35,762 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:35,762 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:35,762 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:35,904 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:35,904 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:35,904 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:36,048 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:36,048 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:36,048 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:36,193 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:36,193 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:36,193 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:36,337 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:36,337 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:36,337 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:36,481 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:36,481 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:36,482 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:36,626 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:36,626 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:36,626 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:36,769 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:36,769 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:36,769 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:36,939 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:36,939 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:36,939 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:37,082 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:37,083 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:37,083 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:37,227 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:37,227 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:37,227 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:37,373 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:37,374 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:37,374 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:37,516 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:37,516 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:37,516 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:37,660 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:37,660 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:37,660 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:37,804 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:37,804 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:37,804 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:37,949 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:37,949 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:37,949 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:38,093 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:38,093 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:38,093 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:38,241 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:38,241 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:38,242 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:38,381 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:38,381 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:38,381 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:38,526 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:38,527 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:38,527 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:38,670 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:38,671 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:38,671 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:38,814 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:38,815 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:38,815 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:38,959 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:38,959 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:38,959 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:39,103 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:39,103 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:39,103 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:39,248 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:39,248 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:39,248 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:39,392 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:39,392 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:39,392 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:39,536 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:39,537 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:39,537 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:39,680 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:39,681 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:39,681 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:39,825 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:39,826 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:39,826 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:39,969 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:39,969 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:39,969 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:40,113 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:40,113 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:40,113 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:40,258 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:40,260 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:40,260 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:40,403 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:40,403 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:40,403 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:40,547 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:40,547 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:40,547 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:40,692 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:40,693 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:40,693 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:40,835 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:40,835 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:40,836 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:41,004 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:41,004 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:41,004 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:41,147 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:41,147 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:41,147 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:41,293 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:41,294 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:41,294 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:41,437 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:41,437 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:41,437 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:41,581 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:41,581 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:41,581 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:41,727 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:41,728 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:41,728 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:41,869 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:41,869 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:41,869 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:42,014 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:42,014 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:42,014 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:42,161 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:42,162 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:42,162 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:42,304 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:42,305 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:42,305 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:42,448 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:42,448 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:42,448 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:42,595 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:42,595 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:42,595 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:42,736 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:42,736 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:42,736 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:42,881 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:42,881 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:42,881 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:43,025 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:43,025 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:43,025 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:43,168 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:43,168 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:43,168 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:43,314 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:43,314 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:43,314 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:43,460 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:43,460 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:43,460 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:43,626 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:43,626 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:43,626 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:43,770 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:43,770 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:43,770 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:43,915 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:43,915 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:43,915 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:44,062 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:44,063 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:44,063 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:44,204 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:44,204 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:44,204 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:44,348 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:44,348 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:44,348 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:44,496 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:44,497 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:44,497 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:44,637 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:44,637 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:44,637 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:44,781 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:44,781 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:44,781 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:44,926 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:44,926 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:44,926 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:45,072 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:45,072 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:45,072 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:45,216 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:45,216 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:45,216 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:45,358 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:45,358 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:45,358 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:45,502 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:45,503 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:45,503 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:45,670 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:45,671 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:45,671 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:45,815 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:45,815 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:45,815 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:45,960 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:45,960 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:45,960 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:46,104 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:46,104 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:46,104 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:46,248 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:46,248 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:46,248 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:46,393 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:46,393 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:46,394 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:46,537 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:46,537 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:46,537 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:46,682 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:46,682 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:46,682 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:46,826 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:46,827 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:46,827 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:46,970 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:46,970 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:46,970 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:47,116 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:47,116 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:47,116 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:47,261 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:47,261 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:47,261 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:47,403 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:47,403 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:47,403 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:47,552 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:47,552 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:47,552 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:47,691 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:47,691 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:47,691 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:47,836 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:47,836 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:47,836 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:47,981 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:47,981 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:47,981 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:48,125 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:48,125 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:48,125 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:48,273 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:48,274 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:48,275 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:48,414 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:48,414 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:48,414 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:48,558 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:48,558 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:48,558 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:48,702 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:48,702 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:48,702 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:48,846 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:48,846 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:48,846 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:48,991 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:48,991 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:48,991 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:49,144 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:49,144 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:49,144 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:49,283 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:49,283 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:49,284 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:49,448 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:49,448 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:49,448 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:49,592 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:49,593 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:49,593 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:49,737 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:49,737 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:49,737 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:49,881 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:49,881 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:49,881 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:50,025 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:50,025 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:50,025 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:50,169 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:50,170 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:50,170 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:50,314 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:50,314 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:50,314 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:50,458 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:50,458 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:50,458 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:50,603 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:50,604 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:50,604 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:50,747 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:50,747 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:50,747 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:50,894 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:50,894 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:50,895 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:51,036 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:51,036 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:51,036 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:51,205 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:51,205 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:51,205 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:51,351 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:51,352 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:51,352 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:51,493 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:51,493 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:51,493 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:51,637 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:51,637 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:51,638 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:51,781 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:51,781 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:51,782 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:51,927 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:51,927 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:51,927 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:52,070 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:52,070 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:52,070 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:52,214 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:52,214 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:52,214 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:52,362 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:52,363 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:52,363 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:52,503 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:52,503 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:52,504 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:52,655 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:52,655 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:52,655 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:52,791 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:52,792 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:52,792 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:52,937 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:52,937 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:52,937 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:53,080 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:53,080 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:53,080 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:53,225 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:53,225 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:53,225 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:53,370 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:53,371 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:53,371 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:53,515 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:53,516 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:53,516 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:53,658 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:53,658 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:53,658 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:53,805 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:53,806 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:53,806 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:53,947 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:53,947 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:53,947 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:54,092 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:54,092 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:54,092 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:54,236 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:54,236 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:54,236 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:54,405 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:54,405 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:54,405 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:54,574 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:54,574 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:54,574 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:54,716 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:54,716 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:54,716 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:54,885 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:54,885 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:54,885 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:55,032 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:55,032 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:55,032 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:55,176 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:55,177 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:55,177 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:55,322 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:55,323 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:55,323 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:55,462 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:55,462 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:55,462 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:55,607 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:55,608 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:55,608 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:55,752 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:55,752 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:55,752 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:55,896 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:55,896 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:55,896 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:56,041 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:56,041 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:56,041 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:56,184 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:56,184 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:56,184 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:56,328 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:56,329 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:56,329 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:56,476 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:56,476 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:56,476 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:56,642 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:56,642 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:56,642 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:56,785 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:56,786 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:56,786 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:56,950 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:56,951 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:56,951 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:57,098 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:57,099 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:57,099 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:57,243 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:57,243 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:57,243 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:57,391 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:57,391 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:57,391 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:57,530 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:57,531 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:57,531 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:57,676 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:57,676 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:57,676 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:57,824 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:57,825 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:57,826 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:57,965 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:57,965 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:57,965 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:58,109 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:58,109 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:58,109 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:58,253 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:58,254 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:58,254 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:58,397 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:58,398 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:58,398 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:58,542 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:58,542 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:58,542 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:58,686 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:58,686 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:58,686 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:58,855 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:58,855 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:58,855 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:58,999 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:58,999 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:58,999 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:59,143 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:59,143 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:59,143 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:59,288 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:59,288 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:59,288 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:59,432 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:59,432 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:59,432 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:59,576 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:59,576 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:59,576 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:59,724 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:59,725 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:59,725 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:59,865 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:59,865 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:35:59,865 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:00,013 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:00,013 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:00,014 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:00,154 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:00,154 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:00,154 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:00,298 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:00,298 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:00,298 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:00,444 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:00,444 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:00,444 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:00,586 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:00,586 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:00,586 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:00,731 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:00,731 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:00,732 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:00,876 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:00,877 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:00,877 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:01,019 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:01,020 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:01,020 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:01,166 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:01,166 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:01,166 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:01,308 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:01,308 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:01,308 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:01,453 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:01,453 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:01,453 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:01,597 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:01,597 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:01,597 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:01,742 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:01,742 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:01,742 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:01,887 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:01,887 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:01,887 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:02,034 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:02,034 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:02,034 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:02,175 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:02,175 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:02,175 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:02,319 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:02,319 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:02,319 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:02,491 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:02,491 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:02,491 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:02,631 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:02,631 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:02,631 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:02,776 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:02,776 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:02,776 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:02,921 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:02,921 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:02,921 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:03,064 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:03,065 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:03,065 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:03,209 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:03,209 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:03,209 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:03,353 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:03,353 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:03,353 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:03,522 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:03,522 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:03,522 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:03,668 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:03,669 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:03,669 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:03,811 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:03,811 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:03,811 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:03,959 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:03,959 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:03,959 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:04,098 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:04,098 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:04,098 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:04,245 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:04,246 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:04,246 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:04,388 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:04,388 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:04,388 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:04,533 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:04,533 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:04,533 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:04,679 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:04,679 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:04,679 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:04,823 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:04,823 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:04,824 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:04,965 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:04,965 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:04,965 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:05,110 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:05,110 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:05,110 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:05,254 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:05,254 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:05,254 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:05,398 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:05,398 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:05,399 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:05,544 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:05,544 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:05,544 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:05,687 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:05,687 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:05,687 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:36:05,688 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-10 13:38:38,833 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-10 13:38:40,948 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-10 13:38:40,948 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-10 13:38:40,948 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-10 13:38:40,948 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-10 13:38:43,256 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-10 13:38:43,256 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-10 13:38:43,256 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-10 13:38:43,256 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-10 13:38:43,380 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-10 13:38:43,403 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-10 13:38:43,404 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-10 13:38:43,404 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-10 13:38:43,404 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-10 13:38:43,404 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-10 13:38:43,582 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-10 13:38:43,583 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-10 13:38:43,599 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-10 13:39:12,028 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:39:12,028 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:39:12,028 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:39:12,029 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-10 13:39:16,098 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-10 13:39:18,213 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-10 13:39:18,213 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-10 13:39:18,214 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-10 13:39:18,214 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-10 13:39:20,432 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-10 13:39:20,432 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-10 13:39:20,432 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-10 13:39:20,432 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-10 13:39:20,557 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-10 13:39:20,578 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-10 13:39:20,578 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-10 13:39:20,578 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-10 13:39:20,578 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-10 13:39:20,578 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-10 13:39:20,754 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-10 13:39:20,754 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-10 13:39:20,772 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-10 13:40:27,005 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:40:27,005 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:40:27,005 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:40:27,006 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-10 13:44:04,145 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-10 13:44:06,254 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-10 13:44:06,254 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-10 13:44:06,254 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-10 13:44:06,254 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-10 13:44:08,492 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-10 13:44:08,492 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-10 13:44:08,492 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-10 13:44:08,492 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-10 13:44:08,619 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-10 13:44:08,642 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-10 13:44:08,642 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-10 13:44:08,642 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-10 13:44:08,642 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-10 13:44:08,642 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-10 13:44:08,797 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-10 13:44:08,797 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-10 13:44:08,817 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-10 13:44:35,514 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:44:35,514 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:44:35,514 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:44:35,514 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-10 13:45:12,093 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-10 13:45:14,190 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-10 13:45:14,191 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-10 13:45:14,191 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-10 13:45:14,191 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-10 13:45:16,406 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-10 13:45:16,406 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-10 13:45:16,406 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-10 13:45:16,406 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-10 13:45:16,531 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-10 13:45:16,554 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-10 13:45:16,554 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-10 13:45:16,554 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-10 13:45:16,554 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-10 13:45:16,554 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-10 13:45:16,730 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-10 13:45:16,730 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-10 13:45:16,748 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-10 13:47:02,621 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:47:02,621 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:47:02,621 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 13:47:02,621 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-10 14:02:51,242 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-10 14:02:53,351 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-10 14:02:53,351 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-10 14:02:53,351 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-10 14:02:53,351 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-10 14:02:55,583 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-10 14:02:55,583 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-10 14:02:55,583 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-10 14:02:55,583 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-10 14:02:55,706 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-10 14:02:55,732 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-10 14:02:55,734 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-10 14:02:55,734 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-10 14:02:55,734 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-10 14:02:55,734 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-10 14:02:55,946 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-10 14:02:55,946 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-10 14:02:55,965 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-10 14:04:01,955 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:04:01,955 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:04:01,955 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:04:01,955 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-10 14:05:39,054 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-10 14:05:41,176 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-10 14:05:41,176 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-10 14:05:41,176 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-10 14:05:41,176 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-10 14:05:43,445 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-10 14:05:43,445 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-10 14:05:43,445 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-10 14:05:43,446 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-10 14:05:43,571 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-10 14:05:43,596 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-10 14:05:43,597 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-10 14:05:43,598 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-10 14:05:43,598 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-10 14:05:43,598 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-10 14:05:43,794 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-10 14:05:43,794 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-10 14:05:43,815 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-10 14:06:22,164 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:06:22,164 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:06:22,164 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:06:22,165 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-10 14:06:51,434 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-10 14:06:53,580 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-10 14:06:53,580 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-10 14:06:53,580 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-10 14:06:53,580 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-10 14:06:55,880 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-10 14:06:55,881 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-10 14:06:55,881 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-10 14:06:55,881 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-10 14:06:56,004 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-10 14:06:56,040 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-10 14:06:56,042 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-10 14:06:56,043 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-10 14:06:56,043 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-10 14:06:56,043 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-10 14:06:56,262 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-10 14:06:56,262 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-10 14:06:56,283 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-10 14:07:55,248 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:07:55,248 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:07:55,248 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:07:55,248 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-10 14:08:26,137 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-10 14:08:28,276 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-10 14:08:28,277 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-10 14:08:28,277 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-10 14:08:28,277 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-10 14:08:30,529 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-10 14:08:30,530 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-10 14:08:30,530 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-10 14:08:30,530 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-10 14:08:30,660 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-10 14:08:30,682 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-10 14:08:30,684 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-10 14:08:30,684 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-10 14:08:30,684 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-10 14:08:30,684 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-10 14:08:30,861 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-10 14:08:30,862 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-10 14:08:30,883 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-10 14:09:26,324 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:09:26,324 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:09:26,324 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:09:26,324 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-10 14:10:48,806 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-10 14:10:50,927 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-10 14:10:50,927 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-10 14:10:50,927 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-10 14:10:50,927 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-10 14:10:53,247 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-10 14:10:53,247 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-10 14:10:53,250 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-10 14:10:53,250 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-10 14:10:53,380 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-10 14:10:53,410 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-10 14:10:53,412 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-10 14:10:53,412 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-10 14:10:53,413 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-10 14:10:53,413 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-10 14:10:53,592 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-10 14:10:53,592 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-10 14:10:53,614 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-10 14:11:07,511 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:11:07,511 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:11:07,511 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:11:07,511 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-10 14:12:03,790 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-10 14:12:05,909 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-10 14:12:05,910 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-10 14:12:05,910 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-10 14:12:05,910 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-10 14:12:08,220 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-10 14:12:08,220 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-10 14:12:08,221 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-10 14:12:08,221 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-10 14:12:08,344 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-10 14:12:08,369 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-10 14:12:08,370 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-10 14:12:08,371 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-10 14:12:08,371 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-10 14:12:08,371 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-10 14:12:08,520 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-10 14:12:08,520 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-10 14:12:08,541 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-10 14:22:50,023 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-10 14:22:52,136 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-10 14:22:52,136 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-10 14:22:52,136 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-10 14:22:52,136 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-10 14:22:54,358 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-10 14:22:54,358 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-10 14:22:54,358 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-10 14:22:54,358 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-10 14:22:54,483 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-10 14:22:54,506 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-10 14:22:54,508 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-10 14:22:54,508 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-10 14:22:54,508 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-10 14:22:54,508 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-10 14:22:54,531 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:22:54,531 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:22:54,531 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:22:54,531 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-10 14:23:54,536 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-10 14:23:56,626 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-10 14:23:56,626 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-10 14:23:56,626 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-10 14:23:56,626 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-10 14:23:58,941 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-10 14:23:58,941 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-10 14:23:58,941 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-10 14:23:58,942 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-10 14:23:59,070 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-10 14:23:59,098 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-10 14:23:59,098 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-10 14:23:59,099 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-10 14:23:59,099 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-10 14:23:59,099 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-10 14:23:59,293 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-10 14:23:59,293 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-10 14:23:59,315 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-10 14:29:44,684 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:29:44,684 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:29:44,684 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:29:44,685 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-10 14:29:48,123 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-10 14:29:50,220 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-10 14:29:50,220 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-10 14:29:50,220 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-10 14:29:50,220 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-10 14:29:52,430 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-10 14:29:52,430 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-10 14:29:52,430 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-10 14:29:52,431 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-10 14:29:52,554 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-10 14:29:52,578 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-10 14:29:52,579 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-10 14:29:52,579 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-10 14:29:52,579 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-10 14:29:52,579 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-10 14:29:52,757 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-10 14:29:52,757 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-10 14:29:52,777 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-10 14:30:26,113 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:30:26,113 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:30:26,113 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:30:26,113 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-10 14:30:56,739 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-10 14:30:58,851 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-10 14:30:58,851 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-10 14:30:58,851 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-10 14:30:58,851 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-10 14:31:01,134 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-10 14:31:01,134 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-10 14:31:01,134 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-10 14:31:01,134 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-10 14:31:01,257 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-10 14:31:01,282 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-10 14:31:01,283 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-10 14:31:01,283 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-10 14:31:01,283 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-10 14:31:01,283 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-10 14:31:01,480 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-10 14:31:01,480 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-10 14:31:01,502 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-10 14:31:27,933 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:31:27,933 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:31:27,933 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:31:27,933 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-10 14:38:06,009 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-10 14:38:08,119 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-10 14:38:08,119 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-10 14:38:08,119 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-10 14:38:08,119 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-10 14:38:10,341 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-10 14:38:10,341 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-10 14:38:10,342 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-10 14:38:10,342 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-10 14:38:10,466 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-10 14:38:10,498 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-10 14:38:10,498 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-10 14:38:10,498 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-10 14:38:10,498 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-10 14:38:10,498 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-10 14:38:10,704 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-10 14:38:10,705 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-10 14:38:10,725 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-10 14:38:39,514 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:38:39,514 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:38:39,514 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:38:39,514 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-10 14:39:44,680 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-10 14:39:46,776 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-10 14:39:46,776 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-10 14:39:46,779 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-10 14:39:46,779 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-10 14:39:49,075 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-10 14:39:49,076 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-10 14:39:49,076 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-10 14:39:49,076 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-10 14:39:49,205 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-10 14:39:49,248 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-10 14:39:49,248 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-10 14:39:49,248 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-10 14:39:49,248 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-10 14:39:49,248 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-10 14:39:49,442 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-10 14:39:49,442 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-10 14:39:49,460 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-10 14:42:08,724 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:42:08,724 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:42:08,724 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-10 14:42:08,725 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-16 16:21:49,005 INFO  [default] UTILITY	Successfully initialized both camers
+
+2015-06-16 16:21:51,138 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-16 16:21:51,138 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-16 16:21:51,138 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-16 16:21:51,138 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-16 16:21:53,451 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-16 16:21:53,451 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-16 16:21:53,451 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-16 16:21:53,451 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-16 16:21:53,577 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-16 16:21:53,598 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-16 16:21:53,600 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-16 16:21:53,600 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-16 16:21:53,600 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-16 16:21:53,600 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-16 16:21:53,776 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-16 16:21:53,777 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-16 16:21:53,793 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-16 16:26:09,201 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-16 16:26:09,201 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-16 16:26:09,201 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-16 16:26:09,201 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-16 16:27:16,526 INFO  [default] UTILITY	Successfully initialized both camers
+
+2015-06-16 16:27:18,658 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-16 16:27:18,658 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-16 16:27:18,658 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-16 16:27:18,659 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-16 16:27:20,921 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-16 16:27:20,921 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-16 16:27:20,921 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-16 16:27:20,922 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-16 16:27:21,046 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-16 16:27:21,067 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-16 16:27:21,067 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-16 16:27:21,067 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-16 16:27:21,068 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-16 16:27:21,068 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-16 16:27:21,254 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-16 16:27:21,255 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-16 16:27:21,271 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-16 16:28:05,270 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-16 16:28:05,270 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-16 16:28:05,270 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-16 16:28:05,271 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-16 16:28:47,914 INFO  [default] UTILITY	Successfully initialized both camers
+
+2015-06-16 16:28:50,025 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-16 16:28:50,025 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-16 16:28:50,025 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-16 16:28:50,025 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-16 16:28:52,339 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-16 16:28:52,339 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-16 16:28:52,339 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-16 16:28:52,339 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-16 16:28:52,464 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-16 16:28:52,486 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-16 16:28:52,486 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-16 16:28:52,486 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-16 16:28:52,486 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-16 16:28:52,486 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-16 16:28:52,664 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-16 16:28:52,664 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-16 16:28:52,680 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-16 16:29:03,479 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-16 16:29:03,480 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-16 16:29:03,480 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-16 16:29:03,480 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-16 16:30:08,389 INFO  [default] UTILITY	Successfully initialized both camers
+
+2015-06-16 16:30:10,497 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-16 16:30:10,497 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-16 16:30:10,497 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-16 16:30:10,497 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-16 16:30:12,751 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-16 16:30:12,751 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-16 16:30:12,751 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-16 16:30:12,751 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-16 16:30:12,877 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-16 16:30:12,910 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-16 16:30:12,910 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-16 16:30:12,910 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-16 16:30:12,910 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-16 16:30:12,910 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-16 16:30:13,118 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-16 16:30:13,118 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-16 16:30:13,146 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-16 16:30:59,487 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-16 16:30:59,487 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-16 16:30:59,487 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-16 16:30:59,487 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-16 16:31:45,930 INFO  [default] UTILITY	Successfully initialized both camers
+
+2015-06-16 16:31:48,041 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-16 16:31:48,041 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-16 16:31:48,041 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-16 16:31:48,041 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-16 16:31:50,356 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-16 16:31:50,357 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-16 16:31:50,357 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-16 16:31:50,357 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-16 16:31:50,483 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-16 16:31:50,504 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-16 16:31:50,504 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-16 16:31:50,504 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-16 16:31:50,504 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-16 16:31:50,504 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-16 16:31:50,632 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-16 16:31:50,632 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-16 16:31:50,647 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-16 16:38:22,904 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-16 16:38:22,904 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-16 16:38:22,904 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-16 16:38:22,904 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-16 16:38:27,537 INFO  [default] UTILITY	Successfully initialized both camers
+
+2015-06-16 16:38:29,645 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-16 16:38:29,646 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-16 16:38:29,646 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-16 16:38:29,646 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-16 16:38:31,883 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-16 16:38:31,883 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-16 16:38:31,883 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-16 16:38:31,883 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-16 16:38:32,008 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-16 16:38:32,029 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-16 16:38:32,029 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-16 16:38:32,029 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-16 16:38:32,029 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-16 16:38:32,029 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-16 16:38:32,184 INFO  [default] STEREOSYSTEM	Called initRectifiaction()
+
+2015-06-16 16:38:32,184 INFO  [default] STEREOSYSTEM	Imagessizes are: [752 x 480] [752 x 480]
+
+2015-06-16 16:38:32,200 INFO  [default] STEREOSYSTEM	Rectification successfully initialized! [752 x 480 from (0, 0)]
+
+2015-06-16 16:41:54,581 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-16 16:41:54,581 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-16 16:41:54,581 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-16 16:41:54,581 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+

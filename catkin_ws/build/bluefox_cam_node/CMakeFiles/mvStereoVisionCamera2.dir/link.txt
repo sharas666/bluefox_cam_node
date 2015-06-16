@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -Wall -std=c++11   -shared -Wl,-soname,libmvStereoVisionCamera2.so -o /home/josh/uni/project/bluefox_cam_node/catkin_ws/devel/lib/libmvStereoVisionCamera2.so CMakeFiles/mvStereoVisionCamera2.dir/src/mvStereoVision/src/Camera.cpp.o 

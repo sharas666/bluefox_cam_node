@@ -219,6 +219,23 @@ LSB_RELEASE_EXECUTABLE:FILEPATH=/usr/bin/lsb_release
 //Path to a program.
 NOSETESTS:FILEPATH=/usr/bin/nosetests-2.7
 
+//Path where debug 3rdpaty OpenCV dependencies are located
+OpenCV_3RDPARTY_LIB_DIR_DBG:PATH=
+
+//Path where release 3rdpaty OpenCV dependencies are located
+OpenCV_3RDPARTY_LIB_DIR_OPT:PATH=
+
+OpenCV_CONFIG_PATH:FILEPATH=/usr/share/OpenCV
+
+//The directory containing a CMake configuration file for OpenCV.
+OpenCV_DIR:PATH=/usr/share/OpenCV
+
+//Path where debug OpenCV libraries are located
+OpenCV_LIB_DIR_DBG:PATH=
+
+//Path where release OpenCV libraries are located
+OpenCV_LIB_DIR_OPT:PATH=
+
 //Path to a program.
 PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
 
@@ -250,16 +267,58 @@ _CATKIN_GTEST_INCLUDE:FILEPATH=/usr/include/gtest/gtest.h
 _CATKIN_GTEST_SRC:FILEPATH=/usr/src/gtest/src/gtest.cc
 
 //Value Computed by CMake
+bluefox2_BINARY_DIR:STATIC=/home/josh/uni/project/bluefox_cam_node/catkin_ws/build/bluefox_cam_node
+
+//Value Computed by CMake
+bluefox2_SOURCE_DIR:STATIC=/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node
+
+//Value Computed by CMake
 bluefox_cam_node_BINARY_DIR:STATIC=/home/josh/uni/project/bluefox_cam_node/catkin_ws/build/bluefox_cam_node
+
+//Dependencies for target
+bluefox_cam_node_LIB_DEPENDS:STATIC=
 
 //Value Computed by CMake
 bluefox_cam_node_SOURCE_DIR:STATIC=/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node
 
+//The directory containing a CMake configuration file for bond.
+bond_DIR:PATH=/opt/ros/jade/share/bond/cmake
+
+//The directory containing a CMake configuration file for bondcpp.
+bondcpp_DIR:PATH=/opt/ros/jade/share/bondcpp/cmake
+
+//The directory containing a CMake configuration file for camera_base.
+camera_base_DIR:PATH=camera_base_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/jade/share/catkin/cmake
 
+//The directory containing a CMake configuration file for class_loader.
+class_loader_DIR:PATH=/opt/ros/jade/share/class_loader/cmake
+
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/jade/share/cpp_common/cmake
+
+//The directory containing a CMake configuration file for cv_bridge.
+cv_bridge_DIR:PATH=/opt/ros/jade/share/cv_bridge/cmake
+
+//The directory containing a CMake configuration file for gencpp.
+gencpp_DIR:PATH=/opt/ros/jade/share/gencpp/cmake
+
+//The directory containing a CMake configuration file for geneus.
+geneus_DIR:PATH=/opt/ros/jade/share/geneus/cmake
+
+//The directory containing a CMake configuration file for genlisp.
+genlisp_DIR:PATH=/opt/ros/jade/share/genlisp/cmake
+
+//The directory containing a CMake configuration file for genmsg.
+genmsg_DIR:PATH=/opt/ros/jade/share/genmsg/cmake
+
+//The directory containing a CMake configuration file for genpy.
+genpy_DIR:PATH=/opt/ros/jade/share/genpy/cmake
+
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/jade/share/geometry_msgs/cmake
 
 //Value Computed by CMake
 gtest_BINARY_DIR:STATIC=/home/josh/uni/project/bluefox_cam_node/catkin_ws/build/gtest
@@ -286,11 +345,53 @@ gtest_force_shared_crt:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
+//The directory containing a CMake configuration file for image_transport.
+image_transport_DIR:PATH=/opt/ros/jade/share/image_transport/cmake
+
 //Path to a library.
-lib:FILEPATH=/opt/ros/jade/lib/libxmlrpcpp.so
+lib:FILEPATH=/opt/ros/jade/lib/libcv_bridge.so
+
+//The directory containing a CMake configuration file for message_filters.
+message_filters_DIR:PATH=/opt/ros/jade/share/message_filters/cmake
+
+//The directory containing a CMake configuration file for message_generation.
+message_generation_DIR:PATH=/opt/ros/jade/share/message_generation/cmake
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/jade/share/message_runtime/cmake
+
+//The directory containing a CMake configuration file for mvIMPACT.
+mvIMPACT_DIR:PATH=mvIMPACT_DIR-NOTFOUND
+
+//Path to a file.
+mvIMPACT_INCLUDE_DIR:PATH=/opt/mvIMPACT_acquire
+
+//Path to a library.
+mvIMPACT_LIBRARY:FILEPATH=/opt/mvIMPACT_acquire/lib/x86_64/libmvBlueFOX.so
+
+//Dependencies for target
+mvStereoSystem_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+mvStereoVisionCamera2_LIB_DEPENDS:STATIC=
+
+//Dependencies for the target
+mvStereoVisionCamera_LIB_DEPENDS:STATIC=general;/opt/mvIMPACT_acquire/lib/x86_64/libmvBlueFOX.so;general;/opt/mvIMPACT_acquire/lib/x86_64/libwxPropGrid.so;general;/opt/mvIMPACT_acquire/lib/x86_64/libmvPropHandling.so;general;/opt/mvIMPACT_acquire/lib/x86_64/libmvDeviceManager.so;
+
+//Dependencies for target
+mvStereoVisionUtillity_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+mvSteroVisionCamera_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+mvSteroVisionUtillity_LIB_DEPENDS:STATIC=
+
+//The directory containing a CMake configuration file for nodelet.
+nodelet_DIR:PATH=/opt/ros/jade/share/nodelet/cmake
+
+//The directory containing a CMake configuration file for pluginlib.
+pluginlib_DIR:PATH=/opt/ros/jade/share/pluginlib/cmake
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/jade/share/rosconsole/cmake
@@ -307,8 +408,17 @@ roscpp_traits_DIR:PATH=/opt/ros/jade/share/roscpp_traits/cmake
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/jade/share/rosgraph_msgs/cmake
 
+//The directory containing a CMake configuration file for roslib.
+roslib_DIR:PATH=/opt/ros/jade/share/roslib/cmake
+
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/jade/share/rostime/cmake
+
+//The directory containing a CMake configuration file for sensor_msgs.
+sensor_msgs_DIR:PATH=/opt/ros/jade/share/sensor_msgs/cmake
+
+//The directory containing a CMake configuration file for smclib.
+smclib_DIR:PATH=/opt/ros/jade/share/smclib/cmake
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/jade/share/std_msgs/cmake
@@ -455,6 +565,8 @@ CMAKE_UNAME:INTERNAL=/bin/uname
 CMAKE_USE_RELATIVE_PATHS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding Mvimpact
+FIND_PACKAGE_MESSAGE_DETAILS_Mvimpact:INTERNAL=[/opt/mvIMPACT_acquire][/opt/mvIMPACT_acquire/lib/x86_64/libmvBlueFOX.so;/opt/mvIMPACT_acquire/lib/x86_64/libwxPropGrid.so;/opt/mvIMPACT_acquire/lib/x86_64/libmvPropHandling.so;/opt/mvIMPACT_acquire/lib/x86_64/libmvDeviceManager.so][v()]
 //Details about finding PythonInterp
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.9()]
 //Details about finding Threads
@@ -474,10 +586,24 @@ GTEST_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 GTEST_MAIN_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: GTEST_MAIN_LIBRARY_DEBUG
 GTEST_MAIN_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OpenCV_3RDPARTY_LIB_DIR_DBG
+OpenCV_3RDPARTY_LIB_DIR_DBG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OpenCV_3RDPARTY_LIB_DIR_OPT
+OpenCV_3RDPARTY_LIB_DIR_OPT-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OpenCV_CONFIG_PATH
+OpenCV_CONFIG_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OpenCV_LIB_DIR_DBG
+OpenCV_LIB_DIR_DBG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OpenCV_LIB_DIR_OPT
+OpenCV_LIB_DIR_OPT-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PYTHON_EXECUTABLE
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 //This needs to be in PYTHONPATH when 'setup.py install' is called.
 //  And it needs to match.  But setuptools won't tell us where
 // it will install things.
 PYTHON_INSTALL_DIR:INTERNAL=lib/python2.7/dist-packages
+//ADVANCED property for variable: mvIMPACT_INCLUDE_DIR
+mvIMPACT_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: mvIMPACT_LIBRARY
+mvIMPACT_LIBRARY-ADVANCED:INTERNAL=1
 

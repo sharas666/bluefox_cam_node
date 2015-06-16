@@ -1,0 +1,8 @@
+2015-06-05 14:37:12,552 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-05 14:37:12,553 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-05 14:37:17,632 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-05 14:37:17,632 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-05 14:37:19,512 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-05 14:37:19,512 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-05 14:37:21,630 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-05 14:37:21,630 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]

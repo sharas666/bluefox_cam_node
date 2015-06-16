@@ -1,8 +1,16 @@
+/home/josh/uni/project/bluefox_cam_node/catkin_ws/build/bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir
 /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles/clean_test_results.dir
 /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles/download_extra_data.dir
 /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles/doxygen.dir
+/home/josh/uni/project/bluefox_cam_node/catkin_ws/build/bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
+/home/josh/uni/project/bluefox_cam_node/catkin_ws/build/bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_eus.dir
+/home/josh/uni/project/bluefox_cam_node/catkin_ws/build/bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
+/home/josh/uni/project/bluefox_cam_node/catkin_ws/build/bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_py.dir
 /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/gtest/CMakeFiles/gtest.dir
 /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/gtest/CMakeFiles/gtest_main.dir
+/home/josh/uni/project/bluefox_cam_node/catkin_ws/build/bluefox_cam_node/CMakeFiles/mvStereoSystem.dir
+/home/josh/uni/project/bluefox_cam_node/catkin_ws/build/bluefox_cam_node/CMakeFiles/mvStereoVisionCamera.dir
+/home/josh/uni/project/bluefox_cam_node/catkin_ws/build/bluefox_cam_node/CMakeFiles/mvStereoVisionUtillity.dir
 /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/bluefox_cam_node/CMakeFiles/roscpp_generate_messages_cpp.dir
 /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/bluefox_cam_node/CMakeFiles/roscpp_generate_messages_eus.dir
 /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/bluefox_cam_node/CMakeFiles/roscpp_generate_messages_lisp.dir
@@ -12,6 +20,10 @@
 /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/bluefox_cam_node/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
 /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/bluefox_cam_node/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
 /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles/run_tests.dir
+/home/josh/uni/project/bluefox_cam_node/catkin_ws/build/bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
+/home/josh/uni/project/bluefox_cam_node/catkin_ws/build/bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_eus.dir
+/home/josh/uni/project/bluefox_cam_node/catkin_ws/build/bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
+/home/josh/uni/project/bluefox_cam_node/catkin_ws/build/bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_py.dir
 /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/bluefox_cam_node/CMakeFiles/std_msgs_generate_messages_cpp.dir
 /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/bluefox_cam_node/CMakeFiles/std_msgs_generate_messages_eus.dir
 /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/bluefox_cam_node/CMakeFiles/std_msgs_generate_messages_lisp.dir

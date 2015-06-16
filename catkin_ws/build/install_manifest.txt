@@ -1,0 +1,10 @@
+/home/josh/uni/project/bluefox_cam_node/catkin_ws/install/_setup_util.py
+/home/josh/uni/project/bluefox_cam_node/catkin_ws/install/env.sh
+/home/josh/uni/project/bluefox_cam_node/catkin_ws/install/setup.bash
+/home/josh/uni/project/bluefox_cam_node/catkin_ws/install/setup.sh
+/home/josh/uni/project/bluefox_cam_node/catkin_ws/install/setup.zsh
+/home/josh/uni/project/bluefox_cam_node/catkin_ws/install/.rosinstall
+/home/josh/uni/project/bluefox_cam_node/catkin_ws/install/lib/pkgconfig/bluefox_cam_node.pc
+/home/josh/uni/project/bluefox_cam_node/catkin_ws/install/share/bluefox_cam_node/cmake/bluefox_cam_nodeConfig.cmake
+/home/josh/uni/project/bluefox_cam_node/catkin_ws/install/share/bluefox_cam_node/cmake/bluefox_cam_nodeConfig-version.cmake
+/home/josh/uni/project/bluefox_cam_node/catkin_ws/install/share/bluefox_cam_node/package.xml

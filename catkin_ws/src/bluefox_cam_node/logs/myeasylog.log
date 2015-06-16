@@ -1,0 +1,144 @@
+2015-06-05 14:33:05,009 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-05 14:33:07,101 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-05 14:33:07,101 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-05 14:33:07,102 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-05 14:33:07,102 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-05 14:33:09,322 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-05 14:33:09,322 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-05 14:33:09,322 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-05 14:33:09,322 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-05 14:33:09,447 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-05 14:33:09,447 ERROR [default] UTILITY	Node inputParameter in ./configs/default.yml is empty.
+
+2015-06-05 14:33:09,447 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-05 14:34:33,249 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-05 14:34:35,343 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-05 14:34:35,343 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-05 14:34:35,343 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-05 14:34:35,343 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-05 14:34:37,630 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-05 14:34:37,630 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-05 14:34:37,630 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-05 14:34:37,630 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-05 14:34:37,756 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-05 14:34:37,756 ERROR [default] UTILITY	Node inputParameter in ./configs/default.yml is empty.
+
+2015-06-05 14:34:37,756 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-05 14:36:00,689 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-05 14:36:02,782 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-05 14:36:02,782 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-05 14:36:02,782 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-05 14:36:02,782 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-05 14:36:05,000 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-05 14:36:05,000 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-05 14:36:05,000 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-05 14:36:05,000 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-05 14:36:05,125 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-05 14:36:05,125 ERROR [default] UTILITY	Node inputParameter in ./configs/default.yml is empty.
+
+2015-06-05 14:36:05,125 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-05 14:40:03,886 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-05 14:40:05,978 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-05 14:40:05,978 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-05 14:40:05,978 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-05 14:40:05,978 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-05 14:40:08,200 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-05 14:40:08,200 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-05 14:40:08,200 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-05 14:40:08,200 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-05 14:40:08,325 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-05 14:40:08,325 ERROR [default] UTILITY	Node inputParameter in ./configs/default.yml is empty.
+
+2015-06-05 14:40:08,325 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-05 14:42:03,766 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-05 14:42:05,866 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-05 14:42:05,866 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-05 14:42:05,866 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-05 14:42:05,866 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-05 14:42:08,082 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-05 14:42:08,082 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-05 14:42:08,082 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-05 14:42:08,082 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-05 14:42:08,207 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-05 14:42:08,207 ERROR [default] UTILITY	Node inputParameter in ./configs/default.yml is empty.
+
+2015-06-05 14:42:08,207 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-05 14:44:53,081 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-05 14:44:55,189 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-05 14:44:55,189 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-05 14:44:55,189 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-05 14:44:55,189 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-05 14:44:57,418 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-05 14:44:57,418 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-05 14:44:57,418 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-05 14:44:57,418 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-05 14:44:57,544 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-05 14:44:57,544 ERROR [default] UTILITY	Node inputParameter in ./configs/default.yml is empty.
+
+2015-06-05 14:44:57,544 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+

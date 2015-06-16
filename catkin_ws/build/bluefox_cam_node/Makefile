@@ -154,6 +154,118 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/rule:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/rule
+.PHONY : bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/rule
+
+# Convenience name for target.
+bluefox_cam_node: bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/rule
+.PHONY : bluefox_cam_node
+
+# fast build rule for target.
+bluefox_cam_node/fast:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/build.make bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/build
+.PHONY : bluefox_cam_node/fast
+
+# Convenience name for target.
+bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+.PHONY : bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_cpp: bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_cpp/fast:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+.PHONY : geometry_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+.PHONY : bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_eus: bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+.PHONY : geometry_msgs_generate_messages_eus
+
+# fast build rule for target.
+geometry_msgs_generate_messages_eus/fast:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+.PHONY : geometry_msgs_generate_messages_eus/fast
+
+# Convenience name for target.
+bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+.PHONY : bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_lisp: bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_lisp/fast:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+.PHONY : geometry_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+.PHONY : bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_py: bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+.PHONY : geometry_msgs_generate_messages_py
+
+# fast build rule for target.
+geometry_msgs_generate_messages_py/fast:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+.PHONY : geometry_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+bluefox_cam_node/CMakeFiles/mvStereoSystem.dir/rule:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/mvStereoSystem.dir/rule
+.PHONY : bluefox_cam_node/CMakeFiles/mvStereoSystem.dir/rule
+
+# Convenience name for target.
+mvStereoSystem: bluefox_cam_node/CMakeFiles/mvStereoSystem.dir/rule
+.PHONY : mvStereoSystem
+
+# fast build rule for target.
+mvStereoSystem/fast:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/mvStereoSystem.dir/build.make bluefox_cam_node/CMakeFiles/mvStereoSystem.dir/build
+.PHONY : mvStereoSystem/fast
+
+# Convenience name for target.
+bluefox_cam_node/CMakeFiles/mvStereoVisionCamera.dir/rule:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/mvStereoVisionCamera.dir/rule
+.PHONY : bluefox_cam_node/CMakeFiles/mvStereoVisionCamera.dir/rule
+
+# Convenience name for target.
+mvStereoVisionCamera: bluefox_cam_node/CMakeFiles/mvStereoVisionCamera.dir/rule
+.PHONY : mvStereoVisionCamera
+
+# fast build rule for target.
+mvStereoVisionCamera/fast:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/mvStereoVisionCamera.dir/build.make bluefox_cam_node/CMakeFiles/mvStereoVisionCamera.dir/build
+.PHONY : mvStereoVisionCamera/fast
+
+# Convenience name for target.
+bluefox_cam_node/CMakeFiles/mvStereoVisionUtillity.dir/rule:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/mvStereoVisionUtillity.dir/rule
+.PHONY : bluefox_cam_node/CMakeFiles/mvStereoVisionUtillity.dir/rule
+
+# Convenience name for target.
+mvStereoVisionUtillity: bluefox_cam_node/CMakeFiles/mvStereoVisionUtillity.dir/rule
+.PHONY : mvStereoVisionUtillity
+
+# fast build rule for target.
+mvStereoVisionUtillity/fast:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/mvStereoVisionUtillity.dir/build.make bluefox_cam_node/CMakeFiles/mvStereoVisionUtillity.dir/build
+.PHONY : mvStereoVisionUtillity/fast
+
+# Convenience name for target.
 bluefox_cam_node/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
 	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : bluefox_cam_node/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
@@ -266,6 +378,62 @@ rosgraph_msgs_generate_messages_py/fast:
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
+bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+.PHONY : bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_cpp: bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+.PHONY : sensor_msgs_generate_messages_cpp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_cpp/fast:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+.PHONY : sensor_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+.PHONY : bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_eus: bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+.PHONY : sensor_msgs_generate_messages_eus
+
+# fast build rule for target.
+sensor_msgs_generate_messages_eus/fast:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+.PHONY : sensor_msgs_generate_messages_eus/fast
+
+# Convenience name for target.
+bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+.PHONY : bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_lisp: bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+.PHONY : sensor_msgs_generate_messages_lisp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_lisp/fast:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+.PHONY : sensor_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+.PHONY : bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_py: bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+.PHONY : sensor_msgs_generate_messages_py
+
+# fast build rule for target.
+sensor_msgs_generate_messages_py/fast:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make bluefox_cam_node/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+.PHONY : sensor_msgs_generate_messages_py/fast
+
+# Convenience name for target.
 bluefox_cam_node/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
 	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : bluefox_cam_node/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
@@ -321,17 +489,121 @@ std_msgs_generate_messages_py/fast:
 	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/std_msgs_generate_messages_py.dir/build.make bluefox_cam_node/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
+src/bluefox_cam_node.o: src/bluefox_cam_node.cpp.o
+.PHONY : src/bluefox_cam_node.o
+
+# target to build an object file
+src/bluefox_cam_node.cpp.o:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/build.make bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/src/bluefox_cam_node.cpp.o
+.PHONY : src/bluefox_cam_node.cpp.o
+
+src/bluefox_cam_node.i: src/bluefox_cam_node.cpp.i
+.PHONY : src/bluefox_cam_node.i
+
+# target to preprocess a source file
+src/bluefox_cam_node.cpp.i:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/build.make bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/src/bluefox_cam_node.cpp.i
+.PHONY : src/bluefox_cam_node.cpp.i
+
+src/bluefox_cam_node.s: src/bluefox_cam_node.cpp.s
+.PHONY : src/bluefox_cam_node.s
+
+# target to generate assembly for a file
+src/bluefox_cam_node.cpp.s:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/build.make bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/src/bluefox_cam_node.cpp.s
+.PHONY : src/bluefox_cam_node.cpp.s
+
+src/mvStereoVision/src/Camera.o: src/mvStereoVision/src/Camera.cpp.o
+.PHONY : src/mvStereoVision/src/Camera.o
+
+# target to build an object file
+src/mvStereoVision/src/Camera.cpp.o:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/mvStereoVisionCamera.dir/build.make bluefox_cam_node/CMakeFiles/mvStereoVisionCamera.dir/src/mvStereoVision/src/Camera.cpp.o
+.PHONY : src/mvStereoVision/src/Camera.cpp.o
+
+src/mvStereoVision/src/Camera.i: src/mvStereoVision/src/Camera.cpp.i
+.PHONY : src/mvStereoVision/src/Camera.i
+
+# target to preprocess a source file
+src/mvStereoVision/src/Camera.cpp.i:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/mvStereoVisionCamera.dir/build.make bluefox_cam_node/CMakeFiles/mvStereoVisionCamera.dir/src/mvStereoVision/src/Camera.cpp.i
+.PHONY : src/mvStereoVision/src/Camera.cpp.i
+
+src/mvStereoVision/src/Camera.s: src/mvStereoVision/src/Camera.cpp.s
+.PHONY : src/mvStereoVision/src/Camera.s
+
+# target to generate assembly for a file
+src/mvStereoVision/src/Camera.cpp.s:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/mvStereoVisionCamera.dir/build.make bluefox_cam_node/CMakeFiles/mvStereoVisionCamera.dir/src/mvStereoVision/src/Camera.cpp.s
+.PHONY : src/mvStereoVision/src/Camera.cpp.s
+
+src/mvStereoVision/src/Stereosystem.o: src/mvStereoVision/src/Stereosystem.cpp.o
+.PHONY : src/mvStereoVision/src/Stereosystem.o
+
+# target to build an object file
+src/mvStereoVision/src/Stereosystem.cpp.o:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/mvStereoSystem.dir/build.make bluefox_cam_node/CMakeFiles/mvStereoSystem.dir/src/mvStereoVision/src/Stereosystem.cpp.o
+.PHONY : src/mvStereoVision/src/Stereosystem.cpp.o
+
+src/mvStereoVision/src/Stereosystem.i: src/mvStereoVision/src/Stereosystem.cpp.i
+.PHONY : src/mvStereoVision/src/Stereosystem.i
+
+# target to preprocess a source file
+src/mvStereoVision/src/Stereosystem.cpp.i:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/mvStereoSystem.dir/build.make bluefox_cam_node/CMakeFiles/mvStereoSystem.dir/src/mvStereoVision/src/Stereosystem.cpp.i
+.PHONY : src/mvStereoVision/src/Stereosystem.cpp.i
+
+src/mvStereoVision/src/Stereosystem.s: src/mvStereoVision/src/Stereosystem.cpp.s
+.PHONY : src/mvStereoVision/src/Stereosystem.s
+
+# target to generate assembly for a file
+src/mvStereoVision/src/Stereosystem.cpp.s:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/mvStereoSystem.dir/build.make bluefox_cam_node/CMakeFiles/mvStereoSystem.dir/src/mvStereoVision/src/Stereosystem.cpp.s
+.PHONY : src/mvStereoVision/src/Stereosystem.cpp.s
+
+src/mvStereoVision/src/utility.o: src/mvStereoVision/src/utility.cpp.o
+.PHONY : src/mvStereoVision/src/utility.o
+
+# target to build an object file
+src/mvStereoVision/src/utility.cpp.o:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/mvStereoVisionUtillity.dir/build.make bluefox_cam_node/CMakeFiles/mvStereoVisionUtillity.dir/src/mvStereoVision/src/utility.cpp.o
+.PHONY : src/mvStereoVision/src/utility.cpp.o
+
+src/mvStereoVision/src/utility.i: src/mvStereoVision/src/utility.cpp.i
+.PHONY : src/mvStereoVision/src/utility.i
+
+# target to preprocess a source file
+src/mvStereoVision/src/utility.cpp.i:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/mvStereoVisionUtillity.dir/build.make bluefox_cam_node/CMakeFiles/mvStereoVisionUtillity.dir/src/mvStereoVision/src/utility.cpp.i
+.PHONY : src/mvStereoVision/src/utility.cpp.i
+
+src/mvStereoVision/src/utility.s: src/mvStereoVision/src/utility.cpp.s
+.PHONY : src/mvStereoVision/src/utility.s
+
+# target to generate assembly for a file
+src/mvStereoVision/src/utility.cpp.s:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/mvStereoVisionUtillity.dir/build.make bluefox_cam_node/CMakeFiles/mvStereoVisionUtillity.dir/src/mvStereoVision/src/utility.cpp.s
+.PHONY : src/mvStereoVision/src/utility.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... bluefox_cam_node"
 	@echo "... edit_cache"
+	@echo "... geometry_msgs_generate_messages_cpp"
+	@echo "... geometry_msgs_generate_messages_eus"
+	@echo "... geometry_msgs_generate_messages_lisp"
+	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... install"
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
+	@echo "... mvStereoSystem"
+	@echo "... mvStereoVisionCamera"
+	@echo "... mvStereoVisionUtillity"
 	@echo "... rebuild_cache"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_eus"
@@ -341,11 +613,27 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... sensor_msgs_generate_messages_cpp"
+	@echo "... sensor_msgs_generate_messages_eus"
+	@echo "... sensor_msgs_generate_messages_lisp"
+	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... test"
+	@echo "... src/bluefox_cam_node.o"
+	@echo "... src/bluefox_cam_node.i"
+	@echo "... src/bluefox_cam_node.s"
+	@echo "... src/mvStereoVision/src/Camera.o"
+	@echo "... src/mvStereoVision/src/Camera.i"
+	@echo "... src/mvStereoVision/src/Camera.s"
+	@echo "... src/mvStereoVision/src/Stereosystem.o"
+	@echo "... src/mvStereoVision/src/Stereosystem.i"
+	@echo "... src/mvStereoVision/src/Stereosystem.s"
+	@echo "... src/mvStereoVision/src/utility.o"
+	@echo "... src/mvStereoVision/src/utility.i"
+	@echo "... src/mvStereoVision/src/utility.s"
 .PHONY : help
 
 
