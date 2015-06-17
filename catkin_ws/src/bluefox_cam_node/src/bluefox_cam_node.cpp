@@ -1,16 +1,12 @@
 #include "ros/ros.h"
 #include "bluefox_cam_node.hpp"
-/*#include <ros/package.h>
+#include <ros/package.h>
 #include "std_msgs/String.h"
 #include "utility.h"
 #include "Camera.h"
 #include "Stereosystem.h"
-#include "bluefox_node.hpp"
-
-#include <image_transport/image_transport.h>
 #include <cv_bridge/cv_bridge.h>
 #include <dynamic_reconfigure/server.h>
-#include <bluefox_cam_node/bluefox_nodeConfig.h>*/
 
 bluefox_node::bluefox_node(): image_type{0}, left{}, right{}, devMgr{},
                                         nodes{}, stereo(left,right),

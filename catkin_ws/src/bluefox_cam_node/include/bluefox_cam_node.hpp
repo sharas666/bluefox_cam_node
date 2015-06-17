@@ -1,17 +1,11 @@
 #ifndef BLUEFOX_CAM_NODE
 #define BLUEFOX_CAM_NODE
 
-#include <ros/package.h>
-#include "std_msgs/String.h"
-#include "utility.h"
-#include "Camera.h"
 #include "Stereosystem.h"
-#include "bluefox_cam_node.hpp"
-
 #include <image_transport/image_transport.h>
-#include <cv_bridge/cv_bridge.h>
-#include <dynamic_reconfigure/server.h>
 #include <bluefox_cam_node/bluefox_cam_nodeConfig.h>
+
+//class Camera;
 
 
 class bluefox_node{

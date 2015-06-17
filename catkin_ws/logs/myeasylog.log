@@ -3577,3 +3577,39 @@
 
 2015-06-17 14:07:49,331 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
 
+2015-06-17 17:29:47,742 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-17 17:29:47,767 ERROR [default] UTILITY	Invalid numver of cameras detected! Number of detected cameras: 0
+
+2015-06-17 17:29:47,767 ERROR [default] UTILITY	Node inputParameter in /src/mvStereoVision/configs/default.yml is empty.
+
+2015-06-17 17:29:47,767 ERROR [default] STEREOSYSTEM	Node in /intrinsic.ymlis empty.
+
+2015-06-17 17:29:47,767 ERROR [default] STEREOSYSTEM	Node in /extrinsic.ymlis empty.
+
+2015-06-17 17:29:47,767 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-17 17:29:47,767 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-17 17:31:13,729 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-17 17:31:13,757 ERROR [default] UTILITY	Invalid numver of cameras detected! Number of detected cameras: 0
+
+2015-06-17 17:31:13,757 ERROR [default] UTILITY	Node inputParameter in /src/mvStereoVision/configs/default.yml is empty.
+
+2015-06-17 17:31:13,757 ERROR [default] STEREOSYSTEM	Node in /intrinsic.ymlis empty.
+
+2015-06-17 17:31:13,757 ERROR [default] STEREOSYSTEM	Node in /extrinsic.ymlis empty.
+
+2015-06-17 17:31:13,757 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-17 17:31:13,758 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-17 17:31:33,450 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-17 17:31:33,475 ERROR [default] UTILITY	Invalid numver of cameras detected! Number of detected cameras: 0
+
+2015-06-17 17:31:33,476 ERROR [default] UTILITY	Node inputParameter in /src/mvStereoVision/configs/default.yml is empty.
+
+2015-06-17 17:31:33,476 ERROR [default] STEREOSYSTEM	Node in /intrinsic.ymlis empty.
+
+2015-06-17 17:31:33,476 ERROR [default] STEREOSYSTEM	Node in /extrinsic.ymlis empty.
+
+2015-06-17 17:31:33,476 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-17 17:31:33,476 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
