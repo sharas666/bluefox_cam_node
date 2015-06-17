@@ -258,6 +258,84 @@ bluefox_cam_node/fast:
 .PHONY : bluefox_cam_node/fast
 
 #=============================================================================
+# Target rules for targets named bluefox_cam_node_gencfg
+
+# Build rule for target.
+bluefox_cam_node_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node_gencfg
+.PHONY : bluefox_cam_node_gencfg
+
+# fast build rule for target.
+bluefox_cam_node_gencfg/fast:
+	$(MAKE) -f bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/build.make bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/build
+.PHONY : bluefox_cam_node_gencfg/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_reconfigure_gencfg
+
+# Build rule for target.
+dynamic_reconfigure_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_gencfg
+.PHONY : dynamic_reconfigure_gencfg
+
+# fast build rule for target.
+dynamic_reconfigure_gencfg/fast:
+	$(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+.PHONY : dynamic_reconfigure_gencfg/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_reconfigure_generate_messages_cpp
+
+# Build rule for target.
+dynamic_reconfigure_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_cpp
+.PHONY : dynamic_reconfigure_generate_messages_cpp
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_cpp/fast:
+	$(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_reconfigure_generate_messages_eus
+
+# Build rule for target.
+dynamic_reconfigure_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_eus
+.PHONY : dynamic_reconfigure_generate_messages_eus
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_eus/fast:
+	$(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_reconfigure_generate_messages_lisp
+
+# Build rule for target.
+dynamic_reconfigure_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_lisp
+.PHONY : dynamic_reconfigure_generate_messages_lisp
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_lisp/fast:
+	$(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_reconfigure_generate_messages_py
+
+# Build rule for target.
+dynamic_reconfigure_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_py
+.PHONY : dynamic_reconfigure_generate_messages_py
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_py/fast:
+	$(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_py/fast
+
+#=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -577,6 +655,12 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... bluefox_cam_node"
+	@echo "... bluefox_cam_node_gencfg"
+	@echo "... dynamic_reconfigure_gencfg"
+	@echo "... dynamic_reconfigure_generate_messages_cpp"
+	@echo "... dynamic_reconfigure_generate_messages_eus"
+	@echo "... dynamic_reconfigure_generate_messages_lisp"
+	@echo "... dynamic_reconfigure_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... geometry_msgs_generate_messages_lisp"

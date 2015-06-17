@@ -21,6 +21,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "/home/josh/uni/project/bluefox_cam_node/catkin_ws/devel/include"
   "/usr/include/opencv"
   "/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include"
   "/opt/ros/jade/include"

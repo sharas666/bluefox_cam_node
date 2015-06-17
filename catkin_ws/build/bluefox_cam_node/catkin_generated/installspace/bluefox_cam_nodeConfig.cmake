@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(bluefox_cam_node_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT " " STREQUAL " ")
+if(NOT "include " STREQUAL " ")
   set(bluefox_cam_node_INCLUDE_DIRS "")
-  set(_include_dirs "")
+  set(_include_dirs "include")
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
       set(include ${idir})
@@ -145,7 +145,7 @@ foreach(library ${libraries})
   endif()
 endforeach()
 
-set(bluefox_cam_node_EXPORTED_TARGETS "")
+set(bluefox_cam_node_EXPORTED_TARGETS "bluefox_cam_node_gencfg")
 # create dummy targets for exported code generation targets to make life of users easier
 foreach(t ${bluefox_cam_node_EXPORTED_TARGETS})
   if(NOT TARGET ${t})

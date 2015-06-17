@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bluefox_cam_node.dir/src/bluefox_cam_node.cpp.o"
-  "bluefox_cam_node.pdb"
-  "bluefox_cam_node"
+  "/home/josh/uni/project/bluefox_cam_node/catkin_ws/devel/lib/bluefox_cam_node/bluefox_cam_node.pdb"
+  "/home/josh/uni/project/bluefox_cam_node/catkin_ws/devel/lib/bluefox_cam_node/bluefox_cam_node"
 )
 
 # Per-language clean rules from dependency scanning.

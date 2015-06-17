@@ -302,6 +302,9 @@ cpp_common_DIR:PATH=/opt/ros/jade/share/cpp_common/cmake
 //The directory containing a CMake configuration file for cv_bridge.
 cv_bridge_DIR:PATH=/opt/ros/jade/share/cv_bridge/cmake
 
+//The directory containing a CMake configuration file for dynamic_reconfigure.
+dynamic_reconfigure_DIR:PATH=/opt/ros/jade/share/dynamic_reconfigure/cmake
+
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/jade/share/gencpp/cmake
 
@@ -349,7 +352,7 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 image_transport_DIR:PATH=/opt/ros/jade/share/image_transport/cmake
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/jade/lib/libcv_bridge.so
+lib:FILEPATH=/opt/ros/jade/lib/libdynamic_reconfigure_config_init_mutex.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/jade/share/message_filters/cmake

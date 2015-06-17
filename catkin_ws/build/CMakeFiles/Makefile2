@@ -230,7 +230,7 @@ gtest/preinstall:
 gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles  3
 	@echo "Built target gtest"
 .PHONY : gtest/CMakeFiles/gtest.dir/all
 
@@ -261,7 +261,7 @@ clean: gtest/CMakeFiles/gtest.dir/clean
 gtest/CMakeFiles/gtest_main.dir/all: gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles  4
 	@echo "Built target gtest_main"
 .PHONY : gtest/CMakeFiles/gtest_main.dir/all
 
@@ -290,6 +290,7 @@ clean: gtest/CMakeFiles/gtest_main.dir/clean
 
 # Convenience name for "all" pass in the directory.
 bluefox_cam_node/all: bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/all
+bluefox_cam_node/all: bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/all
 bluefox_cam_node/all: bluefox_cam_node/CMakeFiles/mvStereoSystem.dir/all
 bluefox_cam_node/all: bluefox_cam_node/CMakeFiles/mvStereoVisionCamera.dir/all
 bluefox_cam_node/all: bluefox_cam_node/CMakeFiles/mvStereoVisionUtillity.dir/all
@@ -297,6 +298,12 @@ bluefox_cam_node/all: bluefox_cam_node/CMakeFiles/mvStereoVisionUtillity.dir/all
 
 # Convenience name for "clean" pass in the directory.
 bluefox_cam_node/clean: bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/clean
+bluefox_cam_node/clean: bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/clean
+bluefox_cam_node/clean: bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
+bluefox_cam_node/clean: bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean
+bluefox_cam_node/clean: bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/clean
+bluefox_cam_node/clean: bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
+bluefox_cam_node/clean: bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
 bluefox_cam_node/clean: bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 bluefox_cam_node/clean: bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
 bluefox_cam_node/clean: bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
@@ -333,6 +340,7 @@ bluefox_cam_node/preinstall:
 bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/all: bluefox_cam_node/CMakeFiles/mvStereoSystem.dir/all
 bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/all: bluefox_cam_node/CMakeFiles/mvStereoVisionUtillity.dir/all
 bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/all: bluefox_cam_node/CMakeFiles/mvStereoVisionCamera.dir/all
+bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/all: bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/all
 	$(MAKE) -f bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/build.make bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/depend
 	$(MAKE) -f bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/build.make bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles  1
@@ -345,7 +353,7 @@ all: bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/all
 
 # Build rule for subdir invocation for target.
 bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles 0
 .PHONY : bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/rule
@@ -361,6 +369,196 @@ bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/clean:
 
 # clean rule for target.
 clean: bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir
+
+# All Build rule for target.
+bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/all:
+	$(MAKE) -f bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/build.make bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/depend
+	$(MAKE) -f bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/build.make bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles  2
+	@echo "Built target bluefox_cam_node_gencfg"
+.PHONY : bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/all
+
+# Include target in all.
+all: bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles 0
+.PHONY : bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/rule
+
+# Convenience name for target.
+bluefox_cam_node_gencfg: bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/rule
+.PHONY : bluefox_cam_node_gencfg
+
+# clean rule for target.
+bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/clean:
+	$(MAKE) -f bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/build.make bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/clean
+.PHONY : bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/clean
+
+# clean rule for target.
+clean: bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir
+
+# All Build rule for target.
+bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir/all:
+	$(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir/depend
+	$(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles 
+	@echo "Built target dynamic_reconfigure_gencfg"
+.PHONY : bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+
+# Build rule for subdir invocation for target.
+bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles 0
+.PHONY : bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_gencfg: bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+.PHONY : dynamic_reconfigure_gencfg
+
+# clean rule for target.
+bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean:
+	$(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
+.PHONY : bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
+
+# clean rule for target.
+clean: bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir
+
+# All Build rule for target.
+bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all:
+	$(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/depend
+	$(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles 
+	@echo "Built target dynamic_reconfigure_generate_messages_cpp"
+.PHONY : bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles 0
+.PHONY : bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_cpp: bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+.PHONY : dynamic_reconfigure_generate_messages_cpp
+
+# clean rule for target.
+bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean:
+	$(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean
+.PHONY : bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir
+
+# All Build rule for target.
+bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all:
+	$(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/depend
+	$(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles 
+	@echo "Built target dynamic_reconfigure_generate_messages_eus"
+.PHONY : bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles 0
+.PHONY : bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_eus: bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
+.PHONY : dynamic_reconfigure_generate_messages_eus
+
+# clean rule for target.
+bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/clean:
+	$(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/clean
+.PHONY : bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir
+
+# All Build rule for target.
+bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all:
+	$(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/depend
+	$(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles 
+	@echo "Built target dynamic_reconfigure_generate_messages_lisp"
+.PHONY : bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles 0
+.PHONY : bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_lisp: bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+.PHONY : dynamic_reconfigure_generate_messages_lisp
+
+# clean rule for target.
+bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean:
+	$(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
+.PHONY : bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir
+
+# All Build rule for target.
+bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all:
+	$(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/depend
+	$(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles 
+	@echo "Built target dynamic_reconfigure_generate_messages_py"
+.PHONY : bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles 0
+.PHONY : bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_py: bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+.PHONY : dynamic_reconfigure_generate_messages_py
+
+# clean rule for target.
+bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean:
+	$(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
+.PHONY : bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -494,7 +692,7 @@ clean: bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 bluefox_cam_node/CMakeFiles/mvStereoSystem.dir/all:
 	$(MAKE) -f bluefox_cam_node/CMakeFiles/mvStereoSystem.dir/build.make bluefox_cam_node/CMakeFiles/mvStereoSystem.dir/depend
 	$(MAKE) -f bluefox_cam_node/CMakeFiles/mvStereoSystem.dir/build.make bluefox_cam_node/CMakeFiles/mvStereoSystem.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles  4
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles  5
 	@echo "Built target mvStereoSystem"
 .PHONY : bluefox_cam_node/CMakeFiles/mvStereoSystem.dir/all
 
@@ -529,7 +727,7 @@ clean: bluefox_cam_node/CMakeFiles/mvStereoSystem.dir/clean
 bluefox_cam_node/CMakeFiles/mvStereoVisionCamera.dir/all:
 	$(MAKE) -f bluefox_cam_node/CMakeFiles/mvStereoVisionCamera.dir/build.make bluefox_cam_node/CMakeFiles/mvStereoVisionCamera.dir/depend
 	$(MAKE) -f bluefox_cam_node/CMakeFiles/mvStereoVisionCamera.dir/build.make bluefox_cam_node/CMakeFiles/mvStereoVisionCamera.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles  5
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles  6
 	@echo "Built target mvStereoVisionCamera"
 .PHONY : bluefox_cam_node/CMakeFiles/mvStereoVisionCamera.dir/all
 
@@ -564,7 +762,7 @@ clean: bluefox_cam_node/CMakeFiles/mvStereoVisionCamera.dir/clean
 bluefox_cam_node/CMakeFiles/mvStereoVisionUtillity.dir/all:
 	$(MAKE) -f bluefox_cam_node/CMakeFiles/mvStereoVisionUtillity.dir/build.make bluefox_cam_node/CMakeFiles/mvStereoVisionUtillity.dir/depend
 	$(MAKE) -f bluefox_cam_node/CMakeFiles/mvStereoVisionUtillity.dir/build.make bluefox_cam_node/CMakeFiles/mvStereoVisionUtillity.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles  6
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/josh/uni/project/bluefox_cam_node/catkin_ws/build/CMakeFiles  7
 	@echo "Built target mvStereoVisionUtillity"
 .PHONY : bluefox_cam_node/CMakeFiles/mvStereoVisionUtillity.dir/all
 

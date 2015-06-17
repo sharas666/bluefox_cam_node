@@ -4,14 +4,93 @@
 #include "utility.h"
 #include "Camera.h"
 #include "Stereosystem.h"
+//#include <functional> //std::bind
 
 #include <image_transport/image_transport.h>
 #include <cv_bridge/cv_bridge.h>
+#include <dynamic_reconfigure/server.h>
+#include <bluefox_cam_node/bluefox_cam_nodeConfig.h>
+
+void callback(bluefox_cam_node::bluefox_cam_nodeConfig &config, uint32_t level)
+{
+  ROS_INFO("Reconfigure request : %i",
+           config.image_type);
+}
+
+void publish_distorted(ros::NodeHandle const& nh, Stereosystem& stereo, ros::Rate& loop_rate, image_transport::Publisher const& pubLeft, image_transport::Publisher const& pubRight){
+
+    Stereopair imagePair;
+    sensor_msgs::ImagePtr msgLeft;
+    sensor_msgs::ImagePtr msgRight;
+
+    while (nh.ok()) {
+        //get the different types of images from the stereo system.
+        stereo.getImagepair(imagePair);
+        cv::waitKey(30);
+        msgRight = cv_bridge::CvImage(std_msgs::Header(),
+                     "mono8", imagePair.mLeft).toImageMsg();
+        msgLeft = cv_bridge::CvImage(std_msgs::Header(),
+                     "mono8", imagePair.mRight).toImageMsg();
+        pubLeft.publish(msgLeft);
+        pubRight.publish(msgRight);
+        ros::spinOnce();
+        loop_rate.sleep();
+    }
+}
+
+void publish_undistorted(ros::NodeHandle const& nh, Stereosystem& stereo, ros::Rate& loop_rate, image_transport::Publisher const& pubLeft, image_transport::Publisher const& pubRight){
+
+    Stereopair imagePair;
+    sensor_msgs::ImagePtr msgLeft;
+    sensor_msgs::ImagePtr msgRight;
+
+    while (nh.ok()) {
+        //get the different types of images from the stereo system.
+        stereo.getUndistortedImagepair(imagePair);
+        cv::waitKey(30);
+        msgRight = cv_bridge::CvImage(std_msgs::Header(),
+                     "mono8", imagePair.mLeft).toImageMsg();
+        msgLeft = cv_bridge::CvImage(std_msgs::Header(),
+                     "mono8", imagePair.mRight).toImageMsg();
+        pubLeft.publish(msgLeft);
+        pubRight.publish(msgRight);
+        ros::spinOnce();
+        loop_rate.sleep();
+    }
+}
+
+void publish_rectified(ros::NodeHandle const& nh, Stereosystem& stereo, ros::Rate& loop_rate, image_transport::Publisher const& pubLeft, image_transport::Publisher const& pubRight){
+
+    Stereopair imagePair;
+    sensor_msgs::ImagePtr msgLeft;
+    sensor_msgs::ImagePtr msgRight;
+
+    while (nh.ok()) {
+
+        //get the different types of images from the stereo system.
+        stereo.getRectifiedImagepair(imagePair);
+        cv::waitKey(30);
+        msgRight = cv_bridge::CvImage(std_msgs::Header(),
+                     "mono8", imagePair.mLeft).toImageMsg();
+        msgLeft = cv_bridge::CvImage(std_msgs::Header(),
+                     "mono8", imagePair.mRight).toImageMsg();
+        pubLeft.publish(msgLeft);
+        pubRight.publish(msgRight);
+        ros::spinOnce();
+        loop_rate.sleep();
+    }
+}
 
 int main(int argc, char** argv)
 {
     ros::init(argc, argv, "bluefox_cam_node");
     ros::NodeHandle nh;
+
+    dynamic_reconfigure::Server<bluefox_cam_node::bluefox_cam_nodeConfig> srv;
+    dynamic_reconfigure::Server<bluefox_cam_node::bluefox_cam_nodeConfig>::CallbackType f;
+    f = boost::bind(&callback, _1, _2);
+    srv.setCallback(f);
+
     image_transport::ImageTransport it(nh);
     image_transport::Publisher pubLeft = it.advertise("stereo/left/image", 1);
     image_transport::Publisher pubRight = it.advertise("stereo/right/image", 1);
@@ -64,54 +143,31 @@ int main(int argc, char** argv)
     right->setExposure(24000);
 
 
-    //create windows
-/*    cv::namedWindow("Left Distorted" ,1);
-    cv::namedWindow("Right Distorted" ,1);
-
-    cv::namedWindow("Left Undistorted" ,1);
-    cv::namedWindow("Right Undistorted" ,1);
-
-    cv::namedWindow("Left Rectified" ,1);
-    cv::namedWindow("Right Rectified" ,1);*/
-
-    sensor_msgs::ImagePtr msgLeft;
-    sensor_msgs::ImagePtr msgRight;
     ros::Rate loop_rate(60);
     //Stereopair is a struct holding a left and right image
-    Stereopair distorted;
-/*    Stereopair undistorted;
-    Stereopair rectified;*/
+
+    int img_type = 0;
+
+    switch(img_type){
+        case 0:{
+            publish_distorted(nh, stereo, loop_rate, pubLeft, pubRight);
+            break;
+        }
+        case 1:{
+            publish_undistorted(nh, stereo, loop_rate, pubLeft, pubRight);
+            break;
+        }
+        case 2:{
+            publish_rectified(nh, stereo, loop_rate, pubLeft, pubRight);
+            break;
+        }
+        default:{
+            std::cout << "image types: distorted, unddistorted, rectified" << std::endl;
+        }
+    }
 
 
-    while (nh.ok()) {
-        //get the different types of images from the stereo system...
-        stereo.getImagepair(distorted);
-        //stereo.getUndistortedImagepair(undistorted);
-        //stereo.getRectifiedImagepair(rectified);
-
-        //... and show them all (with the stereopair.mLeft/mRight you have acces to the images and can do whatever you want with them)
-/*        cv::imshow("Left Distorted", distorted.mLeft);
-        cv::imshow("Right Distorted", distorted.mRight);
-
-        cv::imshow("Left Undistorted", undistorted.mLeft);
-        cv::imshow("Right Undistorted", undistorted.mRight);
-
-        cv::imshow("Left Rectified", rectified.mLeft);
-        cv::imshow("Right Rectified", rectified.mRight);*/
 
 
-        cv::waitKey(30);
-        msgRight = cv_bridge::CvImage(std_msgs::Header(), "mono8", distorted.mLeft).toImageMsg();
-        msgLeft = cv_bridge::CvImage(std_msgs::Header(), "mono8", distorted.mRight).toImageMsg();
-/*        msg->height = distorted.mLeft.rows;
-        msg->width = distorted.mLeft.cols;
-*/        //msg->step = distorted.mLeft.step[0];
-        //std::cout << msg->height << " " << msg->width << " " << msg->step << std::endl;
-        /*std::cout << msg->step << std::endl;*/
-        pubLeft.publish(msgLeft);
-        pubRight.publish(msgRight);
-        ros::spinOnce();
-        loop_rate.sleep();
-  }
   return 0;
 }

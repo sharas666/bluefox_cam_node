@@ -168,6 +168,90 @@ bluefox_cam_node/fast:
 .PHONY : bluefox_cam_node/fast
 
 # Convenience name for target.
+bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/rule:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/rule
+.PHONY : bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/rule
+
+# Convenience name for target.
+bluefox_cam_node_gencfg: bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/rule
+.PHONY : bluefox_cam_node_gencfg
+
+# fast build rule for target.
+bluefox_cam_node_gencfg/fast:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/build.make bluefox_cam_node/CMakeFiles/bluefox_cam_node_gencfg.dir/build
+.PHONY : bluefox_cam_node_gencfg/fast
+
+# Convenience name for target.
+bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+.PHONY : bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_gencfg: bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+.PHONY : dynamic_reconfigure_gencfg
+
+# fast build rule for target.
+dynamic_reconfigure_gencfg/fast:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+.PHONY : dynamic_reconfigure_gencfg/fast
+
+# Convenience name for target.
+bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+.PHONY : bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_cpp: bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+.PHONY : dynamic_reconfigure_generate_messages_cpp
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_cpp/fast:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_cpp/fast
+
+# Convenience name for target.
+bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
+.PHONY : bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_eus: bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
+.PHONY : dynamic_reconfigure_generate_messages_eus
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_eus/fast:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_eus/fast
+
+# Convenience name for target.
+bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+.PHONY : bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_lisp: bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+.PHONY : dynamic_reconfigure_generate_messages_lisp
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_lisp/fast:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_lisp/fast
+
+# Convenience name for target.
+bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+.PHONY : bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_py: bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+.PHONY : dynamic_reconfigure_generate_messages_py
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_py/fast:
+	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make bluefox_cam_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_py/fast
+
+# Convenience name for target.
 bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
 	cd /home/josh/uni/project/bluefox_cam_node/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 .PHONY : bluefox_cam_node/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
@@ -592,6 +676,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... bluefox_cam_node"
+	@echo "... bluefox_cam_node_gencfg"
+	@echo "... dynamic_reconfigure_gencfg"
+	@echo "... dynamic_reconfigure_generate_messages_cpp"
+	@echo "... dynamic_reconfigure_generate_messages_eus"
+	@echo "... dynamic_reconfigure_generate_messages_lisp"
+	@echo "... dynamic_reconfigure_generate_messages_py"
 	@echo "... edit_cache"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_eus"
