@@ -1,0 +1,7 @@
+\subsubsection usage Usage
+\verbatim
+<node name="bluefox_cam" pkg="bluefox_cam" type="bluefox_cam">
+  <param name="image_type" type="int" value="0" />
+</node>
+\endverbatim
+

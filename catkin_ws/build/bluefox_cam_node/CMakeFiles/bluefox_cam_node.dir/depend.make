@@ -4,6 +4,7 @@
 bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/src/bluefox_cam_node.cpp.o: /home/josh/uni/project/bluefox_cam_node/catkin_ws/devel/include/bluefox_cam_node/bluefox_cam_nodeConfig.h
 bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/src/bluefox_cam_node.cpp.o: /home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/Camera.h
 bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/src/bluefox_cam_node.cpp.o: /home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/Stereosystem.h
+bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/src/bluefox_cam_node.cpp.o: /home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/bluefox_cam_node.hpp
 bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/src/bluefox_cam_node.cpp.o: /home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h
 bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/src/bluefox_cam_node.cpp.o: /home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/utility.h
 bluefox_cam_node/CMakeFiles/bluefox_cam_node.dir/src/bluefox_cam_node.cpp.o: /home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/src/bluefox_cam_node.cpp

@@ -3475,3 +3475,105 @@
 
 2015-06-16 16:41:54,581 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
 
+2015-06-17 13:47:24,519 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-17 13:47:26,662 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-17 13:47:26,662 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-17 13:47:26,662 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-17 13:47:26,663 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-17 13:47:28,929 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-17 13:47:28,929 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-17 13:47:28,929 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-17 13:47:28,929 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-17 13:47:29,054 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-17 13:47:29,078 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-17 13:47:29,079 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-17 13:47:29,080 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-17 13:47:29,080 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-17 13:47:29,080 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-17 13:49:26,200 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-17 13:49:26,200 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-17 13:50:02,762 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-17 13:50:04,885 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-17 13:50:04,885 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-17 13:50:04,885 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-17 13:50:04,885 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-17 13:50:07,257 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-17 13:50:07,257 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-17 13:50:07,257 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-17 13:50:07,257 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-17 13:50:07,381 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-17 13:50:07,402 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-17 13:50:07,402 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-17 13:50:07,402 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-17 13:50:07,402 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-17 13:50:07,402 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-17 13:55:07,380 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-17 13:55:07,380 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-17 13:55:50,450 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-17 13:55:52,586 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-17 13:55:52,586 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-17 13:55:52,587 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-17 13:55:52,587 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-17 13:55:54,847 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-17 13:55:54,847 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-17 13:55:54,847 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-17 13:55:54,848 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-17 13:55:54,972 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-17 13:55:54,993 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-17 13:55:54,993 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-17 13:55:54,993 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-17 13:55:54,994 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-17 13:55:54,994 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-17 14:07:49,331 INFO  [default] STEREOPAIR	Stereopair destroyed
+
+2015-06-17 14:07:49,331 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
