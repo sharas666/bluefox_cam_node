@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC  -Wall -std=c++11   -shared -Wl,-soname,libmvStereoSystem.so -o /home/josh/uni/project/bluefox_cam_node/catkin_ws/devel/lib/libmvStereoSystem.so CMakeFiles/mvStereoSystem.dir/src/mvStereoVision/src/Stereosystem.cpp.o 

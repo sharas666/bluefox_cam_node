@@ -1,2 +1,0 @@
-bluefox_cam_node
--DCATKIN_DEVEL_PREFIX=/home/josh/uni/project/bluefox_cam_node/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/josh/uni/project/bluefox_cam_node/catkin_ws/install -G Unix Makefiles

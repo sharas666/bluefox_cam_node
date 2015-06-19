@@ -1,6 +1,0 @@
-\subsubsection parameters ROS parameters
-
-Reads and maintains the following parameters on the ROS server
-
-- \b "~image_type" : \b [int] image type enum min: 0, default: 0, max: 2
-
