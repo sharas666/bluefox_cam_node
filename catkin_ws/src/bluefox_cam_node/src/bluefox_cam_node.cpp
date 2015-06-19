@@ -33,6 +33,11 @@ bluefox_node::bluefox_node(): image_type{0}, left{}, right{}, devMgr{},
         right->setExposure(24000);
     }
 
+bluefox_node::~bluefox_node(){
+    delete left;
+    delete right;
+}
+
 int bluefox_node::get_image_type()const{
     return image_type;
 }
