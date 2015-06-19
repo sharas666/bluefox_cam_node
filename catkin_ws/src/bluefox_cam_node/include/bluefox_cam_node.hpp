@@ -9,12 +9,15 @@
 
 
 class bluefox_node{
+    using Publisher = image_transport::Publisher const&;
 public:
     bluefox_node();
     void callback(bluefox_cam_node::bluefox_cam_nodeConfig &config, uint32_t level);
-    void publish_distorted(image_transport::Publisher const& pubLeft, image_transport::Publisher const& pubRight);
-    void publish_undistorted(image_transport::Publisher const& pubLeft, image_transport::Publisher const& pubRight);
-    void publish_rectified(image_transport::Publisher const& pubLeft, image_transport::Publisher const& pubRight);
+    void publish_distorted(Publisher pubLeft, Publisher pubRight);
+    void publish_undistorted(Publisher pubLeft, Publisher pubRight);
+    void publish_rectified(Publisher pubLeft, Publisher pubRight);
+    int get_image_type()const;
+
 private:
     int image_type;
     Camera* left;

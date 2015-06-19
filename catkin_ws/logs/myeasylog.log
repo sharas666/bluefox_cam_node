@@ -3613,3 +3613,652 @@
 
 2015-06-17 17:31:33,476 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
 2015-06-17 17:31:33,476 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-19 10:54:00,618 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 10:54:00,646 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-19 10:54:02,810 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-19 10:54:02,811 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-19 10:54:02,811 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-19 10:54:02,811 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-19 10:54:05,075 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-19 10:54:05,075 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-19 10:54:05,075 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-19 10:54:05,076 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-19 10:54:05,206 ERROR [default] UTILITY	Node inputParameter in /src/mvStereoVision/configs/default.yml is empty.
+
+2015-06-19 10:54:05,206 ERROR [default] STEREOSYSTEM	Node in /intrinsic.ymlis empty.
+
+2015-06-19 10:54:05,206 ERROR [default] STEREOSYSTEM	Node in /extrinsic.ymlis empty.
+
+2015-06-19 10:54:05,207 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-19 10:54:05,207 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-19 10:54:05,476 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signalault.yml is empty.
+       €ìÉ            ÿÿÿÿ    mvBlueFOX-M1
+2015-06-19 10:54:05,476 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signalault.yml is empty.
+       €ìÉ            ÿÿÿÿ    mvBlueFOX-M1
+2015-06-19 10:54:05,476 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signalault.yml is empty.
+       €ìÉ            ÿÿÿÿ    mvBlueFOX-M1
+2015-06-19 10:54:05,476 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signalault.yml is empty.
+       €ìÉ            ÿÿÿÿ    mvBlueFOX-M1
+2015-06-19 10:54:05,477 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-19 10:54:05,477 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-19 10:56:07,123 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 10:56:07,150 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-19 10:56:09,281 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-19 10:56:09,281 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-19 10:56:09,281 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-19 10:56:09,281 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-19 10:56:11,620 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-19 10:56:11,620 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-19 10:56:11,620 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-19 10:56:11,621 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-19 10:56:11,747 ERROR [default] UTILITY	Node inputParameter in /src/mvStereoVision/configs/default.yml is empty.
+
+2015-06-19 10:56:11,747 ERROR [default] STEREOSYSTEM	Node in /intrinsic.ymlis empty.
+
+2015-06-19 10:56:11,747 ERROR [default] STEREOSYSTEM	Node in /extrinsic.ymlis empty.
+
+2015-06-19 10:56:11,747 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-19 10:56:11,747 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-19 10:56:12,013 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signalault.yml is empty.
+       pŒ×            ÿÿÿÿ    mvBlueFOX-M1
+2015-06-19 10:56:12,013 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signalault.yml is empty.
+       pŒ×            ÿÿÿÿ    mvBlueFOX-M1
+2015-06-19 10:56:12,013 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signalault.yml is empty.
+       pŒ×            ÿÿÿÿ    mvBlueFOX-M1
+2015-06-19 10:56:12,013 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signalault.yml is empty.
+       pŒ×            ÿÿÿÿ    mvBlueFOX-M1
+2015-06-19 10:56:12,013 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-19 10:57:58,675 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 10:57:58,703 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-19 10:58:00,840 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-19 10:58:00,840 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-19 10:58:00,840 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-19 10:58:00,840 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-19 10:58:03,098 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-19 10:58:03,099 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-19 10:58:03,099 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-19 10:58:03,099 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-19 10:58:03,227 ERROR [default] UTILITY	Node inputParameter in /src/mvStereoVision/configs/default.yml is empty.
+
+2015-06-19 10:58:03,227 ERROR [default] STEREOSYSTEM	Node in /intrinsic.ymlis empty.
+
+2015-06-19 10:58:03,227 ERROR [default] STEREOSYSTEM	Node in /extrinsic.ymlis empty.
+
+2015-06-19 10:58:03,227 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-19 10:58:03,227 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-19 10:58:03,493 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-19 10:58:03,493 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signalCRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-19 10:58:03,493 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-19 10:58:03,493 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signalCRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-19 10:58:03,493 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-19 10:58:03,493 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-19 10:59:16,119 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 10:59:16,147 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-19 10:59:18,273 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-19 10:59:18,273 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-19 10:59:18,273 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-19 10:59:18,273 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-19 10:59:20,628 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-19 10:59:20,628 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-19 10:59:20,628 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-19 10:59:20,628 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-19 10:59:20,753 ERROR [default] UTILITY	Node inputParameter in /src/mvStereoVision/configs/default.yml is empty.
+
+2015-06-19 10:59:20,753 ERROR [default] STEREOSYSTEM	Node in /intrinsic.ymlis empty.
+
+2015-06-19 10:59:20,753 ERROR [default] STEREOSYSTEM	Node in /extrinsic.ymlis empty.
+
+2015-06-19 10:59:20,753 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-19 10:59:20,753 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-19 10:59:36,199 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 10:59:36,227 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-19 10:59:38,360 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-19 10:59:38,360 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-19 10:59:38,360 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-19 10:59:38,360 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-19 10:59:40,709 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-19 10:59:40,709 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-19 10:59:40,709 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-19 10:59:40,709 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-19 10:59:40,838 ERROR [default] UTILITY	Node inputParameter in /src/mvStereoVision/configs/default.yml is empty.
+
+2015-06-19 10:59:40,838 ERROR [default] STEREOSYSTEM	Node in /intrinsic.ymlis empty.
+
+2015-06-19 10:59:40,838 ERROR [default] STEREOSYSTEM	Node in /extrinsic.ymlis empty.
+
+2015-06-19 10:59:40,838 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-19 10:59:40,839 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-19 10:59:41,141 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signalault.yml is empty.
+       €l†           ÿÿÿÿ    mvBlueFOX-M1
+2015-06-19 10:59:41,141 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signalault.yml is empty.
+       €l†           ÿÿÿÿ    mvBlueFOX-M1
+2015-06-19 10:59:41,141 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-19 10:59:41,141 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-19 11:02:02,935 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 11:02:02,962 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-19 11:02:05,098 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-19 11:02:05,098 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-19 11:02:05,098 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-19 11:02:05,098 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-19 11:02:07,478 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-19 11:02:07,478 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-19 11:02:07,479 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-19 11:02:07,479 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-19 11:02:07,603 ERROR [default] UTILITY	Node inputParameter in /src/mvStereoVision/configs/default.yml is empty.
+
+2015-06-19 11:02:07,603 ERROR [default] STEREOSYSTEM	Node in /intrinsic.ymlis empty.
+
+2015-06-19 11:02:07,603 ERROR [default] STEREOSYSTEM	Node in /extrinsic.ymlis empty.
+
+2015-06-19 11:02:07,603 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-19 11:02:07,603 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-19 11:02:07,861 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-19 11:02:07,861 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signalCRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-19 11:02:07,861 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-19 11:02:07,861 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-19 11:03:12,631 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 11:03:12,657 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-19 11:03:14,806 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-19 11:03:14,806 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-19 11:03:14,806 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-19 11:03:14,806 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-19 11:03:17,083 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-19 11:03:17,083 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-19 11:03:17,083 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-19 11:03:17,083 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-19 11:03:17,211 ERROR [default] UTILITY	Node inputParameter in /src/mvStereoVision/configs/default.yml is empty.
+
+2015-06-19 11:03:17,211 ERROR [default] STEREOSYSTEM	Node in /intrinsic.ymlis empty.
+
+2015-06-19 11:03:17,211 ERROR [default] STEREOSYSTEM	Node in /extrinsic.ymlis empty.
+
+2015-06-19 11:03:17,211 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-19 11:03:17,211 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-19 11:03:31,807 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 11:03:31,817 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-19 11:03:33,970 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-19 11:03:33,970 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-19 11:03:33,970 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-19 11:03:33,971 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-19 11:03:36,254 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-19 11:03:36,254 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-19 11:03:36,255 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-19 11:03:36,255 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-19 11:03:36,387 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-19 11:03:36,388 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-19 11:03:36,388 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-19 11:05:57,351 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 11:05:57,361 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-19 11:05:59,484 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-19 11:05:59,484 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-19 11:05:59,484 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-19 11:05:59,484 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-19 11:06:01,742 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-19 11:06:01,742 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-19 11:06:01,742 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-19 11:06:01,742 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-19 11:06:01,866 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-19 11:06:01,866 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-19 11:06:01,866 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-19 11:06:14,703 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 11:06:14,713 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-19 11:06:16,845 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-19 11:06:16,845 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-19 11:06:16,845 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-19 11:06:16,845 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-19 11:06:19,098 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-19 11:06:19,098 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-19 11:06:19,098 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-19 11:06:19,098 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-19 11:06:19,223 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-19 11:06:19,223 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-19 11:06:19,223 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-19 11:07:03,783 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 11:07:03,793 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-19 11:07:05,919 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-19 11:07:05,919 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-19 11:07:05,919 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-19 11:07:05,919 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-19 11:07:08,110 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-19 11:07:08,110 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-19 11:07:08,110 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-19 11:07:08,110 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-19 11:07:08,231 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-19 11:07:08,231 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-19 11:07:08,231 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-19 11:07:21,315 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 11:07:21,325 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-19 11:07:23,465 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-19 11:07:23,465 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-19 11:07:23,465 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-19 11:07:23,465 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-19 11:07:25,826 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-19 11:07:25,826 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-19 11:07:25,826 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-19 11:07:25,826 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-19 11:07:25,951 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-19 11:07:25,951 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-19 11:07:25,951 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-19 11:07:53,387 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 11:07:53,397 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-19 11:07:55,534 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-19 11:07:55,534 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-19 11:07:55,534 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-19 11:07:55,534 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-19 11:07:57,874 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-19 11:07:57,875 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-19 11:07:57,875 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-19 11:07:57,875 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-19 11:07:58,001 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-19 11:07:58,002 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-19 11:07:58,002 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-19 11:09:15,203 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 11:09:15,214 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-19 11:09:17,348 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-19 11:09:17,348 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-19 11:09:17,348 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-19 11:09:17,348 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-19 11:09:19,687 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-19 11:09:19,688 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-19 11:09:19,688 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-19 11:09:19,688 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-19 11:09:19,812 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-19 11:09:19,812 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-19 11:09:19,813 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-19 11:09:28,474 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 11:09:28,485 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-19 11:09:30,608 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-19 11:09:30,608 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-19 11:09:30,608 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-19 11:09:30,608 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-19 11:09:32,950 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-19 11:09:32,950 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-19 11:09:32,950 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-19 11:09:32,950 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-19 11:09:33,077 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-19 11:09:33,077 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-19 11:09:33,077 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-19 11:09:46,943 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 11:09:46,953 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-19 11:09:49,089 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-19 11:09:49,089 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-19 11:09:49,089 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-19 11:09:49,089 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-19 11:09:51,471 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-19 11:09:51,471 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-19 11:09:51,471 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-19 11:09:51,471 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-19 11:09:51,601 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-19 11:09:51,601 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-19 11:09:51,601 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-19 11:10:29,679 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 11:10:29,690 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-19 11:10:31,828 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-19 11:10:31,828 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-19 11:10:31,828 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-19 11:10:31,828 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-19 11:10:34,078 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-19 11:10:34,078 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-19 11:10:34,078 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-19 11:10:34,078 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-19 11:10:34,205 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-19 11:10:34,205 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-19 11:10:34,205 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-19 11:10:55,175 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 11:10:55,185 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-19 11:10:57,311 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-19 11:10:57,311 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-19 11:10:57,311 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-19 11:10:57,311 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-19 11:10:59,579 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-19 11:10:59,579 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-19 11:10:59,580 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-19 11:10:59,580 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-19 11:10:59,700 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-19 11:10:59,700 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-19 11:10:59,700 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-19 11:11:12,182 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 11:11:12,194 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-19 11:11:14,327 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-19 11:11:14,327 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-19 11:11:14,327 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-19 11:11:14,327 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-19 11:11:16,672 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-19 11:11:16,672 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-19 11:11:16,672 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-19 11:11:16,672 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-19 11:11:16,801 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-19 11:11:16,801 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-19 11:11:16,801 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-19 11:15:18,843 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 11:15:18,853 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-19 11:15:20,986 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-19 11:15:20,986 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-19 11:15:20,986 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-19 11:15:20,986 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-19 11:15:23,250 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-19 11:15:23,250 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-19 11:15:23,250 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-19 11:15:23,250 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-19 11:15:23,374 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-19 11:15:23,375 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-19 11:15:23,375 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-19 11:19:07,183 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 11:19:07,183 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-19 11:19:09,296 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-19 11:19:09,296 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-19 11:19:09,296 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-19 11:19:09,296 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-19 11:19:11,640 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-19 11:19:11,640 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-19 11:19:11,640 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-19 11:19:11,641 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-19 11:19:11,768 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-19 11:19:11,768 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2015-06-19 11:19:11,768 WARN  [default] Aborting application. Reason: Fatal log at [/home/josh/uni/project/bluefox_cam_node/catkin_ws/src/bluefox_cam_node/include/easylogging++.h:5583]
+2015-06-19 11:25:02,023 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 11:25:02,023 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-19 11:25:04,170 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-19 11:25:04,171 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-19 11:25:04,171 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-19 11:25:04,171 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-19 11:25:06,516 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-19 11:25:06,516 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-19 11:25:06,517 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-19 11:25:06,517 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-19 11:25:06,645 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 11:25:06,646 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-19 11:25:06,646 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-19 11:25:06,647 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-19 11:25:06,650 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-19 11:25:06,650 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-19 11:25:06,650 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+
+2015-06-19 11:36:22,123 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 11:36:22,133 INFO  [default] UTILITY	Successfully initilized both camers
+
+2015-06-19 11:36:24,265 INFO  [default] CAMERA	Serial:26803878 ID:0	Camera created.
+
+2015-06-19 11:36:24,265 INFO  [default] CAMERA	Serial:26803878 ID:0	Set Pixelformat to Mono8
+
+2015-06-19 11:36:24,265 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 12000
+
+2015-06-19 11:36:24,265 INFO  [default] CAMERA	Serial:26803878 ID:0	Set gain DB to 0
+
+2015-06-19 11:36:26,610 INFO  [default] CAMERA	Serial:26803881 ID:1	Camera created.
+
+2015-06-19 11:36:26,610 INFO  [default] CAMERA	Serial:26803881 ID:1	Set Pixelformat to Mono8
+
+2015-06-19 11:36:26,610 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 12000
+
+2015-06-19 11:36:26,610 INFO  [default] CAMERA	Serial:26803881 ID:1	Set gain DB to 0
+
+2015-06-19 11:36:26,738 INFO  [default] STEREOSYSTEM	Stereosystem created
+
+2015-06-19 11:36:26,738 INFO  [default] STEREOSYSTEM	Stereosystem destroyed
+
+2015-06-19 11:36:26,738 INFO  [default] UTILITY	Successfully checked configuration.
+
+2015-06-19 11:36:26,739 INFO  [default] STEREOSYSTEM	Successfully loaded Intrinsics.
+
+2015-06-19 11:36:26,739 INFO  [default] STEREOSYSTEM	Successfully loaded Extrinsics.
+
+2015-06-19 11:36:26,739 INFO  [default] CAMERA	Serial:26803878 ID:0	Set exposure time to 24000
+
+2015-06-19 11:36:26,739 INFO  [default] CAMERA	Serial:26803881 ID:1	Set exposure time to 24000
+

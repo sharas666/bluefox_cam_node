@@ -26,3 +26,8 @@
 *.exe
 *.out
 *.app
+
+# Folders
+catkin_ws/build
+catkin_ws/devel
+catkin_ws/install
