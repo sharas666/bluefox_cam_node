@@ -1,30 +1,30 @@
-#include "ros/ros.h"
 #include "bluefox_cam_node.hpp"
-#include <ros/package.h>
-#include "std_msgs/String.h"
+// ros includes
+#include "ros/ros.h" // ros main
+#include <ros/package.h> // package::getPath
+#include <cv_bridge/cv_bridge.h> // convert images to image messages
+#include <dynamic_reconfigure/server.h> // dynamically change parameters
+// framework includes
 #include "utility.h"
 #include "Camera.h"
 #include "Stereosystem.h"
-#include <cv_bridge/cv_bridge.h>
-#include <dynamic_reconfigure/server.h>
 
-// makes everything ready to run
+// gets everything ready to run
 bluefox_node::bluefox_node(): image_type{0}, left{}, right{}, devMgr{},
                                         nodes{}, stereo{left,right},
                                         imagePair{}, msgLeft{}, msgRight{},
                                         config{ros::package::getPath("bluefox_cam_node") + "/src/mvStereoVision/configs/default.yml"}
     {
-        std::string inputParameter;
+        // initialize cameras
         Utility::initCameras(devMgr,left,right);
-        stereo={left,right};
+        stereo={left,right}; // because cameras must be initialized first
+        // get input files and configure cameras
+        std::string inputParameter;
         nodes.push_back("inputParameter");
         Utility::checkConfig(config,nodes,fs);
         fs["inputParameter"] >> inputParameter;
-        ROS_INFO("load parameters");
         stereo.loadIntrinsic(inputParameter+"/intrinsic.yml");
-        ROS_INFO("intrinsic");
         stereo.loadExtrinisic(inputParameter +"/extrinsic.yml");
-        ROS_INFO("extrinsic");
         set_exposure(24000);
     }
 
