@@ -27,10 +27,8 @@ bluefox_node::bluefox_node(): image_type{0}, left{}, right{}, devMgr{},
         ROS_INFO("intrinsic");
         stereo.loadExtrinisic(inputParameter +"/extrinsic.yml");
         ROS_INFO("extrinsic");
-
+        set_exposure(24000);
         //set the exposure time for left and right camera
-        left->setExposure(24000);
-        right->setExposure(24000);
     }
 
 bluefox_node::~bluefox_node(){
@@ -42,10 +40,15 @@ int bluefox_node::get_image_type()const{
     return image_type;
 }
 
+void bluefox_node::set_exposure(int exposure){
+        left->setExposure(exposure);
+        right->setExposure(exposure);
+}
+
 void bluefox_node::callback(bluefox_cam_node::bluefox_cam_nodeConfig &config, uint32_t level)
 {
-  ROS_INFO("Reconfigure request : %i", config.image_type);
     image_type = config.image_type;
+    set_exposure(config.exposure);
 }
 
 void bluefox_node::publish_distorted(Publisher pubLeft, Publisher pubRight){
@@ -61,7 +64,7 @@ void bluefox_node::publish_distorted(Publisher pubLeft, Publisher pubRight){
 
 void bluefox_node::publish_undistorted(Publisher pubLeft, Publisher pubRight){
 
-        stereo.getImagepair(imagePair);
+        stereo.getUndistortedImagepair(imagePair);
         msgRight = cv_bridge::CvImage(std_msgs::Header(),
                      "mono8", imagePair.mLeft).toImageMsg();
         msgLeft = cv_bridge::CvImage(std_msgs::Header(),
@@ -72,7 +75,7 @@ void bluefox_node::publish_undistorted(Publisher pubLeft, Publisher pubRight){
 
 void bluefox_node::publish_rectified(Publisher pubLeft, Publisher pubRight){
         std::cout << "rect" << std::endl;
-        stereo.getImagepair(imagePair);
+        stereo.getRectifiedImagepair(imagePair);
         msgRight = cv_bridge::CvImage(std_msgs::Header(),
                      "mono8", imagePair.mLeft).toImageMsg();
         msgLeft = cv_bridge::CvImage(std_msgs::Header(),
@@ -81,7 +84,7 @@ void bluefox_node::publish_rectified(Publisher pubLeft, Publisher pubRight){
         pubRight.publish(msgRight);
 }
 
-void bluefox_node::show_fps()const{
+void bluefox_node::view_fps()const{
     std::cout << "left: " << left->getFramerate() << " right: " << right->getFramerate() << std::endl;
 }
 
@@ -105,7 +108,7 @@ int main(int argc, char** argv)
 
     while (nh.ok()) {
 
-        //cam_node->show_fps();
+        cam_node->view_fps();
         switch(cam_node->get_image_type()){
             case 0:{
                 cam_node->publish_distorted(pubLeft, pubRight);

@@ -15,7 +15,8 @@ public:
     void publish_distorted(Publisher pubLeft, Publisher pubRight);
     void publish_undistorted(Publisher pubLeft, Publisher pubRight);
     void publish_rectified(Publisher pubLeft, Publisher pubRight);
-    void show_fps()const;
+    void view_fps()const;
+    void set_exposure(int exposure);
     int get_image_type()const;
 
 
