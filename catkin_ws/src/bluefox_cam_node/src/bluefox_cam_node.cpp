@@ -44,8 +44,7 @@ int bluefox_node::get_image_type()const{
 
 void bluefox_node::callback(bluefox_cam_node::bluefox_cam_nodeConfig &config, uint32_t level)
 {
-  ROS_INFO("Reconfigure request : %i",
-           config.image_type);
+  ROS_INFO("Reconfigure request : %i", config.image_type);
     image_type = config.image_type;
 }
 
@@ -72,7 +71,7 @@ void bluefox_node::publish_undistorted(Publisher pubLeft, Publisher pubRight){
 }
 
 void bluefox_node::publish_rectified(Publisher pubLeft, Publisher pubRight){
-
+        std::cout << "rect" << std::endl;
         stereo.getImagepair(imagePair);
         msgRight = cv_bridge::CvImage(std_msgs::Header(),
                      "mono8", imagePair.mLeft).toImageMsg();
@@ -80,6 +79,10 @@ void bluefox_node::publish_rectified(Publisher pubLeft, Publisher pubRight){
                      "mono8", imagePair.mRight).toImageMsg();
         pubLeft.publish(msgLeft);
         pubRight.publish(msgRight);
+}
+
+void bluefox_node::show_fps()const{
+    std::cout << "left: " << left->getFramerate() << " right: " << right->getFramerate() << std::endl;
 }
 
 int main(int argc, char** argv)
@@ -98,11 +101,11 @@ int main(int argc, char** argv)
     image_transport::Publisher pubLeft = it.advertise("stereo/left/image", 1);
     image_transport::Publisher pubRight = it.advertise("stereo/right/image", 1);
 
-    ros::Rate loop_rate(60);
+    ros::Rate loop_rate(90);
 
     while (nh.ok()) {
-        cv::waitKey(30);
 
+        //cam_node->show_fps();
         switch(cam_node->get_image_type()){
             case 0:{
                 cam_node->publish_distorted(pubLeft, pubRight);
