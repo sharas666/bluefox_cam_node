@@ -26,6 +26,10 @@ bluefox_node::bluefox_node(): image_type{0}, left{}, right{}, devMgr{},
         stereo.loadIntrinsic(inputParameter+"/intrinsic.yml");
         stereo.loadExtrinisic(inputParameter +"/extrinsic.yml");
         set_exposure(24000);
+        imagePair = Stereopair{cv::Mat{left->getImageHeight(),
+            left->getImageWidth(),CV_8UC1, cv::Scalar::all(0)},
+            cv::Mat{right->getImageHeight(),right->getImageWidth(),
+            CV_8UC1, cv::Scalar::all(0)}};
     }
 
 // clean up camera space
@@ -111,11 +115,11 @@ int main(int argc, char** argv)
     image_transport::Publisher pubRight = it.advertise("stereo/right/image", 1);
 
     // set ros loop rate
-    ros::Rate loop_rate(90);
+    ros::Rate loop_rate(200);
 
     while (nh.ok()) {
 
-        cam_node->view_fps();
+        //cam_node->view_fps();
         //switch case to change image type dynamically
         switch(cam_node->get_image_type()){
             case 0:{ // distorted

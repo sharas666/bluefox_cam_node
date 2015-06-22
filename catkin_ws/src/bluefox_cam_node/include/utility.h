@@ -31,6 +31,7 @@ struct Stereopair
 {
 	Stereopair();
 	Stereopair(cv::Mat &, cv::Mat &);
+	Stereopair(cv::Mat &&, cv::Mat &&);
 	~Stereopair();
 
 	cv::Mat mLeft;
