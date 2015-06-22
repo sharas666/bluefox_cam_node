@@ -119,7 +119,7 @@ int main(int argc, char** argv)
 
     while (nh.ok()) {
 
-        //cam_node->view_fps();
+        cam_node->view_fps();
         //switch case to change image type dynamically
         switch(cam_node->get_image_type()){
             case 0:{ // distorted
