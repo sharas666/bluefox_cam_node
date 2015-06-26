@@ -30,11 +30,13 @@ class Camera
 						~Camera();
 
 		//Functions
-		bool 				getImage(std::vector<char>&);
+		bool getRequest();
+		//bool 				getImage(std::vector<char>&);
 		bool 				getImage(cv::Mat&);
 		double 			calibrate(std::vector<cv::Mat> const&, double, cv::Size);
 
 		//Setter
+		void 			set_size();
 		void 			setExposure(unsigned int);
 		void 			setGain(float);
 		void 			setPixelFormat(int);

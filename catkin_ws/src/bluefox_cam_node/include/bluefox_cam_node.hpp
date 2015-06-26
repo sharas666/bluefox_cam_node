@@ -18,6 +18,8 @@ public:
     void view_fps()const;
     void set_exposure(int exposure);
     int get_image_type()const;
+    // void left_image_loop(ros::NodeHandle const& nh, ros::Rate& loop_rate);
+    // void right_image_loop(ros::NodeHandle const& nh, ros::Rate& loop_rate);
 
 
 private:

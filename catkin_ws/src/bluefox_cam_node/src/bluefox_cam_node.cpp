@@ -30,6 +30,8 @@ bluefox_node::bluefox_node(): image_type{0}, left{}, right{}, devMgr{},
             left->getImageWidth(),CV_8UC1, cv::Scalar::all(0)},
             cv::Mat{right->getImageHeight(),right->getImageWidth(),
             CV_8UC1, cv::Scalar::all(0)}};
+        // left->setBinning(1);
+        // right->setBinning(1);
     }
 
 // clean up camera space
@@ -96,6 +98,24 @@ void bluefox_node::view_fps()const{
     std::cout << "left: " << left->getFramerate() << " right: " << right->getFramerate() << std::endl;
 }
 
+/*void bluefox_node::left_image_loop(ros::NodeHandle const& nh, ros::Rate& loop_rate){
+    while(nh.ok()){
+        left->getImage(imagePair.mLeft);
+        ros::spinOnce(); // call all callbacks in the ros callback queue
+        loop_rate.sleep(); // sleep untill next loop cycle begins
+    }
+}
+
+void bluefox_node::right_image_loop(ros::NodeHandle const& nh, ros::Rate& loop_rate){
+    while(nh.ok()){
+        left->getImage(imagePair.mRight);
+        std::cout << "a"<< std::endl;
+        //view_fps();
+        ros::spinOnce(); // call all callbacks in the ros callback queue
+        loop_rate.sleep(); // sleep untill next loop cycle begins
+    }
+}*/
+
 int main(int argc, char** argv)
 {
     ros::init(argc, argv, "bluefox_node"); // initialize ros::node
@@ -111,15 +131,15 @@ int main(int argc, char** argv)
 
     // initialize image_transport publishers and set publishing channels
     image_transport::ImageTransport it(nh);
-    image_transport::Publisher pubLeft = it.advertise("stereo/left/image", 1);
-    image_transport::Publisher pubRight = it.advertise("stereo/right/image", 1);
+    image_transport::Publisher pubLeft = it.advertise("stereo/left/image_raw", 1);
+    image_transport::Publisher pubRight = it.advertise("stereo/right/image_raw", 1);
 
     // set ros loop rate
-    ros::Rate loop_rate(200);
+    ros::Rate loop_rate(90);
 
     while (nh.ok()) {
-
         cam_node->view_fps();
+
         //switch case to change image type dynamically
         switch(cam_node->get_image_type()){
             case 0:{ // distorted

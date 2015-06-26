@@ -30,6 +30,10 @@ class Stereosystem
 		bool getImagepair(Stereopair&);
 		bool getUndistortedImagepair(Stereopair&);
 
+		void undistort_left(cv::Mat& mat);
+		void undistort_right(cv::Mat& mat);
+		void undistort_images(Stereopair&);
+
 		bool initRectification();
 		bool getRectifiedImagepair(Stereopair&);
 
