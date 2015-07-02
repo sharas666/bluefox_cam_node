@@ -13,6 +13,7 @@
 bluefox_node::bluefox_node(): image_type{0}, left{}, right{}, devMgr{},
                                         nodes{}, stereo{left,right},
                                         imagePair{}, msgLeft{}, msgRight{},
+                                        infoLeft{}, infoRight{},
                                         config{ros::package::getPath("bluefox_cam_node") + "/src/mvStereoVision/configs/default.yml"}
     {
         // initialize cameras
@@ -30,14 +31,34 @@ bluefox_node::bluefox_node(): image_type{0}, left{}, right{}, devMgr{},
             left->getImageWidth(),CV_8UC1, cv::Scalar::all(0)},
             cv::Mat{right->getImageHeight(),right->getImageWidth(),
             CV_8UC1, cv::Scalar::all(0)}};
-        // left->setBinning(1);
-        // right->setBinning(1);
+        init_msgs();
     }
 
 // clean up camera space
 bluefox_node::~bluefox_node(){
     delete left;
     delete right;
+}
+
+void bluefox_node::init_msgs(){
+        infoLeft.height=left->getImageHeight();
+        infoLeft.width=left->getImageWidth();
+        infoRight.height=left->getImageHeight();
+        infoRight.width=left->getImageWidth();
+        auto intrinsic = left->getIntrinsic();
+        std::copy(intrinsic.datastart,intrinsic.dataend,infoLeft.K.begin());
+        intrinsic = right->getIntrinsic();
+        std::copy(intrinsic.datastart,intrinsic.dataend,infoRight.K.begin());
+}
+
+bool bluefox_node::get_distorted(){
+    return stereo.getImagepair(imagePair);
+}
+bool bluefox_node::get_undistorted(){
+    return stereo.getUndistortedImagepair(imagePair);
+}
+bool bluefox_node::get_rectified(){
+    return stereo.getRectifiedImagepair(imagePair);
 }
 
 // for switch case
@@ -58,40 +79,25 @@ void bluefox_node::callback(bluefox_cam_node::bluefox_cam_nodeConfig &config, ui
     set_exposure(config.exposure); // exposure time
 }
 
-// publishes distorted images in stereo/left/camera and stereo/right/camera
-void bluefox_node::publish_distorted(Publisher pubLeft, Publisher pubRight){
+// publishes the Imagepair
+void bluefox_node::publish_image(Publisher pubLeft, Publisher pubRight, ros::Publisher& info_l, ros::Publisher& info_r){
 
-        stereo.getImagepair(imagePair);
+        auto t=ros::Time::now();
+        infoLeft.header.stamp=t;
+        infoRight.header.stamp=t;
+        msgLeft->header.stamp=t;
+        msgRight->header.stamp=t;
         msgRight = cv_bridge::CvImage(std_msgs::Header(),
                      "mono8", imagePair.mLeft).toImageMsg();
         msgLeft = cv_bridge::CvImage(std_msgs::Header(),
                      "mono8", imagePair.mRight).toImageMsg();
+        info_l.publish(infoLeft);
+        info_r.publish(infoRight);
         pubLeft.publish(msgLeft);
         pubRight.publish(msgRight);
 }
 
-// publishes undistorted images in stereo/left/camera and stereo/right/camera
-void bluefox_node::publish_undistorted(Publisher pubLeft, Publisher pubRight){
 
-        stereo.getUndistortedImagepair(imagePair);
-        msgRight = cv_bridge::CvImage(std_msgs::Header(),
-                     "mono8", imagePair.mLeft).toImageMsg();
-        msgLeft = cv_bridge::CvImage(std_msgs::Header(),
-                     "mono8", imagePair.mRight).toImageMsg();
-        pubLeft.publish(msgLeft);
-        pubRight.publish(msgRight);
-}
-
-// publishes rectified images in stereo/left/camera and stereo/right/camera
-void bluefox_node::publish_rectified(Publisher pubLeft, Publisher pubRight){
-        stereo.getRectifiedImagepair(imagePair);
-        msgRight = cv_bridge::CvImage(std_msgs::Header(),
-                     "mono8", imagePair.mLeft).toImageMsg();
-        msgLeft = cv_bridge::CvImage(std_msgs::Header(),
-                     "mono8", imagePair.mRight).toImageMsg();
-        pubLeft.publish(msgLeft);
-        pubRight.publish(msgRight);
-}
 
 // fps output on console
 void bluefox_node::view_fps()const{
@@ -133,6 +139,8 @@ int main(int argc, char** argv)
     image_transport::ImageTransport it(nh);
     image_transport::Publisher pubLeft = it.advertise("stereo/left/image_raw", 1);
     image_transport::Publisher pubRight = it.advertise("stereo/right/image_raw", 1);
+    ros::Publisher pub_info_left = nh.advertise<sensor_msgs::CameraInfo>("stero/left/camera_info", 1);
+    ros::Publisher pub_info_right = nh.advertise<sensor_msgs::CameraInfo>("stero/right/camera_info", 1);
 
     // set ros loop rate
     ros::Rate loop_rate(90);
@@ -143,15 +151,18 @@ int main(int argc, char** argv)
         //switch case to change image type dynamically
         switch(cam_node->get_image_type()){
             case 0:{ // distorted
-                cam_node->publish_distorted(pubLeft, pubRight);
+                cam_node->get_distorted();
+                cam_node->publish_image(pubLeft, pubRight, pub_info_left, pub_info_right);
                 break;
             }
             case 1:{ // undistorted
-                cam_node->publish_undistorted(pubLeft, pubRight);
+                cam_node->get_undistorted();
+                cam_node->publish_image(pubLeft, pubRight, pub_info_left, pub_info_right);
                 break;
             }
             case 2:{ // rectified
-                cam_node->publish_rectified(pubLeft, pubRight);
+                cam_node->get_rectified();
+                cam_node->publish_image(pubLeft, pubRight, pub_info_left, pub_info_right);
                 break;
             }
             default:{
