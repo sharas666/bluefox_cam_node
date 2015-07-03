@@ -66,6 +66,30 @@ int bluefox_node::get_image_type()const{
     return image_type;
 }
 
+void bluefox_node::reset_image(){
+    left->set_size();
+    right->set_size();
+    imagePair = Stereopair{cv::Mat{left->getImageHeight(),
+        left->getImageWidth(),CV_8UC1, cv::Scalar::all(0)},
+        cv::Mat{right->getImageHeight(),right->getImageWidth(),
+        CV_8UC1, cv::Scalar::all(0)}};
+}
+
+void bluefox_node::set_binning(bool b){
+    if (b==true){
+        left->setBinning(BINNING_HV);
+        right->setBinning(BINNING_HV);
+        reset_image();
+        init_msgs();
+    }
+    else{
+        left->setBinning(BINNING_OFF);
+        right->setBinning(BINNING_OFF);
+        reset_image();
+        init_msgs();
+    }
+}
+
 // set exposure time of both cameras
 void bluefox_node::set_exposure(int exposure){
         left->setExposure(exposure);
@@ -77,20 +101,21 @@ void bluefox_node::callback(bluefox_cam_node::bluefox_cam_nodeConfig &config, ui
 {
     image_type = config.image_type; // distorted / undistorted / rectified
     set_exposure(config.exposure); // exposure time
+    set_binning(config.binning_mode);
 }
 
 // publishes the Imagepair
-void bluefox_node::publish_image(Publisher pubLeft, Publisher pubRight, ros::Publisher& info_l, ros::Publisher& info_r){
+void bluefox_node::publish_image(imgPub pubLeft, imgPub pubRight, ros::Publisher& info_l, ros::Publisher& info_r){
 
+        msgRight = cv_bridge::CvImage(std_msgs::Header(),
+                     "mono8", imagePair.mLeft).toImageMsg();
+        msgLeft = cv_bridge::CvImage(std_msgs::Header(),
+                     "mono8", imagePair.mRight).toImageMsg();
         auto t=ros::Time::now();
         infoLeft.header.stamp=t;
         infoRight.header.stamp=t;
         msgLeft->header.stamp=t;
         msgRight->header.stamp=t;
-        msgRight = cv_bridge::CvImage(std_msgs::Header(),
-                     "mono8", imagePair.mLeft).toImageMsg();
-        msgLeft = cv_bridge::CvImage(std_msgs::Header(),
-                     "mono8", imagePair.mRight).toImageMsg();
         info_l.publish(infoLeft);
         info_r.publish(infoRight);
         pubLeft.publish(msgLeft);
@@ -139,8 +164,8 @@ int main(int argc, char** argv)
     image_transport::ImageTransport it(nh);
     image_transport::Publisher pubLeft = it.advertise("stereo/left/image_raw", 1);
     image_transport::Publisher pubRight = it.advertise("stereo/right/image_raw", 1);
-    ros::Publisher pub_info_left = nh.advertise<sensor_msgs::CameraInfo>("stero/left/camera_info", 1);
-    ros::Publisher pub_info_right = nh.advertise<sensor_msgs::CameraInfo>("stero/right/camera_info", 1);
+    ros::Publisher pub_info_left = nh.advertise<sensor_msgs::CameraInfo>("stereo/left/camera_info", 1);
+    ros::Publisher pub_info_right = nh.advertise<sensor_msgs::CameraInfo>("stereo/right/camera_info", 1);
 
     // set ros loop rate
     ros::Rate loop_rate(90);

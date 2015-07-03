@@ -7,18 +7,17 @@
 
 
 class bluefox_node{
-    using Publisher = image_transport::Publisher const&;
+    using imgPub = image_transport::Publisher const&;
 public:
     bluefox_node();
     ~bluefox_node();
     void init_msgs();
     void callback(bluefox_cam_node::bluefox_cam_nodeConfig &config, uint32_t level);
-    void publish_image(Publisher pubLeft, Publisher pubRight, ros::Publisher& info_l, ros::Publisher& info_r);
-    void publish_distorted(Publisher pubLeft, Publisher pubRight, ros::Publisher& info_l, ros::Publisher& info_r);
-    void publish_undistorted(Publisher pubLeft, Publisher pubRight, ros::Publisher& info_l, ros::Publisher& info_r);
-    void publish_rectified(Publisher pubLeft, Publisher pubRight, ros::Publisher& info_l, ros::Publisher& info_r);
+    void publish_image(imgPub pubLeft, imgPub pubRight, ros::Publisher& info_l, ros::Publisher& info_r);
     void view_fps()const;
     void set_exposure(int exposure);
+    void set_binning(bool b);
+    void reset_image();
     int get_image_type()const;
     inline bool get_distorted();
     inline bool get_undistorted();
@@ -41,6 +40,7 @@ private:
     sensor_msgs::CameraInfo infoRight;
     std::string config;
     cv::FileStorage fs;
+    bool binning;
 };
 
 #endif //BLUEFOX_CAM_NODE
