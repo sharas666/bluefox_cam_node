@@ -52,6 +52,8 @@ class Camera
 		int 					getBinningMode()	const;
 		cv::Mat 			getIntrinsic() 		const;
 		cv::Mat 			getDistCoeffs() 	const;
+		void				setHighPixelClock();
+		void				setNormalPixelClock();
 
 
 	private:

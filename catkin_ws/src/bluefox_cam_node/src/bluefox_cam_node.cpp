@@ -51,6 +51,18 @@ void bluefox_node::init_msgs(){
         std::copy(intrinsic.datastart,intrinsic.dataend,infoRight.K.begin());
 }
 
+// only temporary
+void bluefox_node::set_high_pixelclock(bool b){
+    if (b==true){
+            left->setHighPixelClock();
+            right->setHighPixelClock();
+    }
+    if (b==false){
+        left->setNormalPixelClock();
+        right->setNormalPixelClock();
+    }
+}
+
 bool bluefox_node::get_distorted(){
     return stereo.getImagepair(imagePair);
 }
@@ -102,6 +114,7 @@ void bluefox_node::callback(bluefox_cam_node::bluefox_cam_nodeConfig &config, ui
     image_type = config.image_type; // distorted / undistorted / rectified
     set_exposure(config.exposure); // exposure time
     set_binning(config.binning_mode);
+    set_high_pixelclock(config.clock_mode);
 }
 
 // publishes the Imagepair

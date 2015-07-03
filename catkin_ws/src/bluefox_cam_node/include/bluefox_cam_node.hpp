@@ -18,6 +18,7 @@ public:
     void set_exposure(int exposure);
     void set_binning(bool b);
     void reset_image();
+    void set_high_pixelclock(bool b);
     int get_image_type()const;
     inline bool get_distorted();
     inline bool get_undistorted();
