@@ -93,12 +93,20 @@ void bluefox_node::set_binning(bool b){
         right->setBinning(BINNING_HV);
         reset_image();
         init_msgs();
+        infoLeft.binning_x = 2;
+        infoLeft.binning_y = 2;
+        infoRight.binning_x = 2;
+        infoRight.binning_y = 2;
     }
     else{
         left->setBinning(BINNING_OFF);
         right->setBinning(BINNING_OFF);
         reset_image();
         init_msgs();
+        infoLeft.binning_x = 1;
+        infoLeft.binning_y = 1;
+        infoRight.binning_x = 1;
+        infoRight.binning_y = 1;
     }
 }
 
