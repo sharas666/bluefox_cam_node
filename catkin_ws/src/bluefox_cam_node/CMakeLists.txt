@@ -19,7 +19,7 @@ add_library(mvStereoVisionCamera
 add_library(mvStereoSystem
   src/mvStereoVision/src/Stereosystem.cpp
 )
-target_link_libraries (mvStereoVisionCamera ${mvIMPACT_LIBRARIES}
+target_link_libraries (mvStereoVisionCamera ${mvIMPACT_LIBRARIES} ${OpenCV_LIBRARIES}
 )
 add_library(mvStereoVisionUtillity
   src/mvStereoVision/src/utility.cpp
