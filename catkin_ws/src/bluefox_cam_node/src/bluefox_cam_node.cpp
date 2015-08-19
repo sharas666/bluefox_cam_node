@@ -83,10 +83,13 @@ bool bluefox_node::get_distorted(){
     return stereo.getImagepair(imagePair);
 }
 bool bluefox_node::get_undistorted(){
-    return stereo.getUndistortedImagepair(imagePair);
+    stereo.getImagepair(imagePair);
+    return stereo.undistort_images(imagePair);
 }
 bool bluefox_node::get_rectified(){
-    return stereo.getRectifiedImagepair(imagePair);
+    stereo.getImagepair(imagePair);
+    stereo.undistort_images(imagePair);
+    return stereo.rectify_images(imagePair);
 }
 
 // for switch case
