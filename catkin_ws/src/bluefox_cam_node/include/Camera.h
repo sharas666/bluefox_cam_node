@@ -43,6 +43,7 @@ class Camera
 		void 			setBinning(unsigned int);
 
 		void			setIntrinsic(cv::Mat);
+		void			setDistCoeffs(cv::Mat);
 		//Getter
 		float 				getFramerate() 		const;
 		unsigned int 	getImageWidth() 	const;

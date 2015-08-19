@@ -7,13 +7,13 @@
 
 
 class bluefox_node{
-    using imgPub = image_transport::Publisher const&;
+    using imgPub = image_transport::CameraPublisher const&;
 public:
     bluefox_node();
     ~bluefox_node();
     void init_msgs();
     void callback(bluefox_cam_node::bluefox_cam_nodeConfig &config, uint32_t level);
-    void publish_image(imgPub pubLeft, imgPub pubRight, ros::Publisher& info_l, ros::Publisher& info_r);
+    void publish_image(imgPub pubLeft, imgPub pubRight);
     void view_fps()const;
     void set_exposure(int exposure);
     void set_binning(bool b);
@@ -37,9 +37,9 @@ private:
     Stereopair imagePair;
     sensor_msgs::ImagePtr msgLeft;
     sensor_msgs::ImagePtr msgRight;
+    std::string config;
     sensor_msgs::CameraInfo infoLeft;
     sensor_msgs::CameraInfo infoRight;
-    std::string config;
     cv::FileStorage fs;
     bool binning;
 };

@@ -13,12 +13,12 @@
 bluefox_node::bluefox_node(): image_type{0}, left{}, right{}, devMgr{},
                                         nodes{}, stereo{left,right},
                                         imagePair{}, msgLeft{}, msgRight{},
-                                        infoLeft{}, infoRight{},
-                                        config{ros::package::getPath("bluefox_cam_node") + "/src/mvStereoVision/configs/default.yml"}
+                                        config{ros::package::getPath("bluefox_cam_node") + "/src/mvStereoVision/configs/default.yml"},
+                                        infoLeft{}, infoRight{}, fs{}, binning{0}
     {
         // initialize cameras
         Utility::initCameras(devMgr,left,right);
-        stereo={left,right}; // because cameras must be initialized first
+        stereo={left,right}; // because cameras must be initialized
         // get input files and configure cameras
         std::string inputParameter;
         nodes.push_back("inputParameter");
@@ -27,6 +27,7 @@ bluefox_node::bluefox_node(): image_type{0}, left{}, right{}, devMgr{},
         stereo.loadIntrinsic(inputParameter+"/intrinsic.yml");
         stereo.loadExtrinisic(inputParameter +"/extrinsic.yml");
         set_exposure(24000);
+        // the cv::mat have to be initialized with the image size and 0 values
         imagePair = Stereopair{cv::Mat{left->getImageHeight(),
             left->getImageWidth(),CV_8UC1, cv::Scalar::all(0)},
             cv::Mat{right->getImageHeight(),right->getImageWidth(),
@@ -40,18 +41,33 @@ bluefox_node::~bluefox_node(){
     delete right;
 }
 
+// this does not work!
 void bluefox_node::init_msgs(){
         infoLeft.height=left->getImageHeight();
         infoLeft.width=left->getImageWidth();
         infoRight.height=left->getImageHeight();
         infoRight.width=left->getImageWidth();
-        auto intrinsic = left->getIntrinsic();
-        std::copy(intrinsic.datastart,intrinsic.dataend,infoLeft.K.begin());
-        intrinsic = right->getIntrinsic();
-        std::copy(intrinsic.datastart,intrinsic.dataend,infoRight.K.begin());
+
+        // std::cout << infoLeft.K[0] << std::endl;
+
+        // auto intrinsic = left->getIntrinsic();
+        // std::copy(intrinsic.datastart,intrinsic.dataend,infoLeft.K.begin());
+        // intrinsic = right->getIntrinsic();
+        // std::copy(intrinsic.datastart,intrinsic.dataend,infoRight.K.begin());
+        auto distCoeffsL = left->getDistCoeffs();
+        std::vector<double> tempL{distCoeffsL.row(0)};
+        std::copy(tempL.begin(), tempL.end(), std::back_inserter(infoLeft.D));
+        infoLeft.D.resize(5);
+        auto distCoeffsR = right->getDistCoeffs();
+        std::vector<double> tempR{distCoeffsR.row(0)};
+        std::copy(tempR.begin(), tempR.end(), std::back_inserter(infoRight.D));
+        infoRight.D.resize(5);
+        infoLeft.distortion_model = "plumb_bob";
+        infoRight.distortion_model = infoLeft.distortion_model;
+
 }
 
-// only temporary
+// lazy implementation because of enums. Look up matrix vision documentation for a full enum list.
 void bluefox_node::set_high_pixelclock(bool b){
     if (b==true){
             left->setHighPixelClock();
@@ -78,6 +94,7 @@ int bluefox_node::get_image_type()const{
     return image_type;
 }
 
+// get the current image size from camera and reinitiate imagePair
 void bluefox_node::reset_image(){
     left->set_size();
     right->set_size();
@@ -87,12 +104,14 @@ void bluefox_node::reset_image(){
         CV_8UC1, cv::Scalar::all(0)}};
 }
 
+// set binning and adjust image size
 void bluefox_node::set_binning(bool b){
     if (b==true){
         left->setBinning(BINNING_HV);
         right->setBinning(BINNING_HV);
         reset_image();
         init_msgs();
+        // camera_info msg
         infoLeft.binning_x = 2;
         infoLeft.binning_y = 2;
         infoRight.binning_x = 2;
@@ -103,6 +122,7 @@ void bluefox_node::set_binning(bool b){
         right->setBinning(BINNING_OFF);
         reset_image();
         init_msgs();
+        // camera_info msg
         infoLeft.binning_x = 1;
         infoLeft.binning_y = 1;
         infoRight.binning_x = 1;
@@ -121,52 +141,27 @@ void bluefox_node::callback(bluefox_cam_node::bluefox_cam_nodeConfig &config, ui
 {
     image_type = config.image_type; // distorted / undistorted / rectified
     set_exposure(config.exposure); // exposure time
-    set_binning(config.binning_mode);
-    set_high_pixelclock(config.clock_mode);
+    set_binning(config.binning_mode); // binning on / off
+    set_high_pixelclock(config.clock_mode); // normal / high
 }
 
 // publishes the Imagepair
-void bluefox_node::publish_image(imgPub pubLeft, imgPub pubRight, ros::Publisher& info_l, ros::Publisher& info_r){
-
+void bluefox_node::publish_image(imgPub pubLeft, imgPub pubRight){
+        // write ImageMsg
         msgRight = cv_bridge::CvImage(std_msgs::Header(),
                      "mono8", imagePair.mLeft).toImageMsg();
         msgLeft = cv_bridge::CvImage(std_msgs::Header(),
                      "mono8", imagePair.mRight).toImageMsg();
-        auto t=ros::Time::now();
-        infoLeft.header.stamp=t;
-        infoRight.header.stamp=t;
-        msgLeft->header.stamp=t;
-        msgRight->header.stamp=t;
-        info_l.publish(infoLeft);
-        info_r.publish(infoRight);
-        pubLeft.publish(msgLeft);
-        pubRight.publish(msgRight);
+        // timestamp and publish
+        static auto t=ros::Time::now();
+        pubLeft.publish(*msgLeft, infoLeft, t);
+        pubRight.publish(*msgRight, infoRight, t);
 }
-
-
 
 // fps output on console
-void bluefox_node::view_fps()const{
+void bluefox_node::view_fps() const{
     std::cout << "left: " << left->getFramerate() << " right: " << right->getFramerate() << std::endl;
 }
-
-/*void bluefox_node::left_image_loop(ros::NodeHandle const& nh, ros::Rate& loop_rate){
-    while(nh.ok()){
-        left->getImage(imagePair.mLeft);
-        ros::spinOnce(); // call all callbacks in the ros callback queue
-        loop_rate.sleep(); // sleep untill next loop cycle begins
-    }
-}
-
-void bluefox_node::right_image_loop(ros::NodeHandle const& nh, ros::Rate& loop_rate){
-    while(nh.ok()){
-        left->getImage(imagePair.mRight);
-        std::cout << "a"<< std::endl;
-        //view_fps();
-        ros::spinOnce(); // call all callbacks in the ros callback queue
-        loop_rate.sleep(); // sleep untill next loop cycle begins
-    }
-}*/
 
 int main(int argc, char** argv)
 {
@@ -183,10 +178,8 @@ int main(int argc, char** argv)
 
     // initialize image_transport publishers and set publishing channels
     image_transport::ImageTransport it(nh);
-    image_transport::Publisher pubLeft = it.advertise("stereo/left/image_raw", 1);
-    image_transport::Publisher pubRight = it.advertise("stereo/right/image_raw", 1);
-    ros::Publisher pub_info_left = nh.advertise<sensor_msgs::CameraInfo>("stereo/left/camera_info", 1);
-    ros::Publisher pub_info_right = nh.advertise<sensor_msgs::CameraInfo>("stereo/right/camera_info", 1);
+    image_transport::CameraPublisher pubLeft = it.advertiseCamera("stereo/left/image_raw", 1);
+    image_transport::CameraPublisher pubRight = it.advertiseCamera("stereo/right/image_raw", 1);
 
     // set ros loop rate
     ros::Rate loop_rate(90);
@@ -198,17 +191,17 @@ int main(int argc, char** argv)
         switch(cam_node->get_image_type()){
             case 0:{ // distorted
                 cam_node->get_distorted();
-                cam_node->publish_image(pubLeft, pubRight, pub_info_left, pub_info_right);
+                cam_node->publish_image(pubLeft, pubRight);
                 break;
             }
             case 1:{ // undistorted
                 cam_node->get_undistorted();
-                cam_node->publish_image(pubLeft, pubRight, pub_info_left, pub_info_right);
+                cam_node->publish_image(pubLeft, pubRight);
                 break;
             }
             case 2:{ // rectified
                 cam_node->get_rectified();
-                cam_node->publish_image(pubLeft, pubRight, pub_info_left, pub_info_right);
+                cam_node->publish_image(pubLeft, pubRight);
                 break;
             }
             default:{
