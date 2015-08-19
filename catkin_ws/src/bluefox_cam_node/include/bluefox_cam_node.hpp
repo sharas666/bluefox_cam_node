@@ -12,12 +12,13 @@ public:
     bluefox_node();
     ~bluefox_node();
     void init_msgs();
+    void init_config();
     void callback(bluefox_cam_node::bluefox_cam_nodeConfig &config, uint32_t level);
     void publish_image(imgPub pubLeft, imgPub pubRight);
     void view_fps()const;
     void set_exposure(int exposure);
     void set_binning(bool b);
-    void reset_image();
+    void reset_stereopair();
     void set_high_pixelclock(bool b);
     int get_image_type()const;
     inline bool get_distorted();

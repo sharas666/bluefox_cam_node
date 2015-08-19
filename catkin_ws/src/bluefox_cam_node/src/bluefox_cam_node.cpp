@@ -19,19 +19,9 @@ bluefox_node::bluefox_node(): image_type{0}, left{}, right{}, devMgr{},
         // initialize cameras
         Utility::initCameras(devMgr,left,right);
         stereo={left,right}; // because cameras must be initialized
-        // get input files and configure cameras
-        std::string inputParameter;
-        nodes.push_back("inputParameter");
-        Utility::checkConfig(config,nodes,fs);
-        fs["inputParameter"] >> inputParameter;
-        stereo.loadIntrinsic(inputParameter+"/intrinsic.yml");
-        stereo.loadExtrinisic(inputParameter +"/extrinsic.yml");
+        init_config();
         set_exposure(24000);
-        // the cv::mat have to be initialized with the image size and 0 values
-        imagePair = Stereopair{cv::Mat{left->getImageHeight(),
-            left->getImageWidth(),CV_8UC1, cv::Scalar::all(0)},
-            cv::Mat{right->getImageHeight(),right->getImageWidth(),
-            CV_8UC1, cv::Scalar::all(0)}};
+        reset_stereopair(); // the cv::mat have to be initialized with the image size and 0 values
         init_msgs();
     }
 
@@ -39,6 +29,16 @@ bluefox_node::bluefox_node(): image_type{0}, left{}, right{}, devMgr{},
 bluefox_node::~bluefox_node(){
     delete left;
     delete right;
+}
+
+void bluefox_node::init_config() {
+    // get input files and configure cameras
+    std::string inputParameter;
+    nodes.push_back("inputParameter");
+    Utility::checkConfig(config,nodes,fs);
+    fs["inputParameter"] >> inputParameter;
+    stereo.loadIntrinsic(inputParameter+"/intrinsic.yml");
+    stereo.loadExtrinisic(inputParameter +"/extrinsic.yml");
 }
 
 // this does not work!
@@ -98,7 +98,7 @@ int bluefox_node::get_image_type()const{
 }
 
 // get the current image size from camera and reinitiate imagePair
-void bluefox_node::reset_image(){
+void bluefox_node::reset_stereopair(){
     left->set_size();
     right->set_size();
     imagePair = Stereopair{cv::Mat{left->getImageHeight(),
@@ -109,10 +109,10 @@ void bluefox_node::reset_image(){
 
 // set binning and adjust image size
 void bluefox_node::set_binning(bool b){
-    if (b==true){
+    if (b){
         left->setBinning(BINNING_HV);
         right->setBinning(BINNING_HV);
-        reset_image();
+        reset_stereopair();
         init_msgs();
         // camera_info msg
         infoLeft.binning_x = 2;
@@ -123,7 +123,7 @@ void bluefox_node::set_binning(bool b){
     else{
         left->setBinning(BINNING_OFF);
         right->setBinning(BINNING_OFF);
-        reset_image();
+        reset_stereopair();
         init_msgs();
         // camera_info msg
         infoLeft.binning_x = 1;
