@@ -166,6 +166,54 @@ void bluefox_node::view_fps() const{
     std::cout << "left: " << left->getFramerate() << " right: " << right->getFramerate() << std::endl;
 }
 
+int bluefox_node::getFiles (std::string const& dir, std::vector<std::string> &files)
+{
+    DIR *dp;
+    struct dirent *dirp;
+
+    //Unable to open dir
+    if((dp  = opendir(dir.c_str())) == NULL)
+    {
+        std::cout << "Error(" << errno << ") opening " << dir << std::endl;
+        return errno;
+    }
+
+    //read files and push them to vector
+    while ((dirp = readdir(dp)) != NULL)
+    {
+        std::string name = std::string(dirp->d_name);
+        //discard . and .. from list
+        if(name != "." && name != "..")
+        {
+            files.push_back(std::string(dirp->d_name));
+        }
+    }
+
+    closedir(dp);
+    std::sort(files.begin(), files.end());
+
+    return 0;
+}
+
+void bluefox_node::rectify_images() {
+    std::string dataPath = ros::package::getPath("bluefox_cam_node") + "/images/";
+    std::vector<std::string> filenames_left;
+    std::vector<std::string> filenames_right;
+    getFiles(dataPath + "left/", filenames_left);
+    getFiles(dataPath + "right/", filenames_right);
+    int frame = 0;
+    cv::Mat image_L1 = cv::imread(dataPath + "left/" + filenames_left[frame],0);
+    cv::Mat image_R1 = cv::imread(dataPath + "right/"+ filenames_right[frame],0);
+    while(image_L1.data && image_R1.data) {
+        Stereopair p{image_L1,image_R1};
+        stereo.undistort_images(p);
+        stereo.rectify_images(p);
+        cv::imwrite(dataPath + "rectified/left/" + filenames_left[frame], p.mLeft);
+        cv::imwrite(dataPath + "rectified/right/" + filenames_right[frame], p.mRight);
+        ++frame;
+    }
+}
+
 int main(int argc, char** argv)
 {
     ros::init(argc, argv, "bluefox_node"); // initialize ros::node
@@ -186,6 +234,8 @@ int main(int argc, char** argv)
 
     // set ros loop rate
     ros::Rate loop_rate(90);
+
+    cam_node->rectify_images();
 
     while (nh.ok()) {
         cam_node->view_fps();

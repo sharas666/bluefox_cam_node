@@ -24,6 +24,8 @@ public:
     inline bool get_distorted();
     inline bool get_undistorted();
     inline bool get_rectified();
+    int getFiles (std::string const& dir, std::vector<std::string> &files);
+    void rectify_images();
     // void left_image_loop(ros::NodeHandle const& nh, ros::Rate& loop_rate);
     // void right_image_loop(ros::NodeHandle const& nh, ros::Rate& loop_rate);
 
@@ -45,4 +47,4 @@ private:
     bool binning;
 };
 
-#endif //BLUEFOX_CAM_NODE
+#endif // BLUEFOX_CAM_NODE
